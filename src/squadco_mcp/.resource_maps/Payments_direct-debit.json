@@ -2,7 +2,7 @@
   "resource_id": "Payments_direct-debit",
   "type": "text",
   "title": "Payments Direct Debit",
-  "source_path": "/mnt/c/Users/st/Desktop/projects/squadco-mcp/docs/Payments_direct-debit.md",
+  "source_path": "docs/Payments_direct-debit.md",
   "metadata": {
     "source_hash": "392dc7e0b82976d67f49e281c07eabbb9a1589b09f5268e7e8b01d76a4de4f49",
     "source_size": 18095

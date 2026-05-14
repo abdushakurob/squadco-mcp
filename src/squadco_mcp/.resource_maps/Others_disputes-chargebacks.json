@@ -2,7 +2,7 @@
   "resource_id": "Others_disputes-chargebacks",
   "type": "text",
   "title": "Others Disputes Chargebacks",
-  "source_path": "/mnt/c/Users/st/Desktop/projects/squadco-mcp/docs/Others_disputes-chargebacks.md",
+  "source_path": "docs/Others_disputes-chargebacks.md",
   "metadata": {
     "source_hash": "e4054b85fdef066ed942427a4b83eb2739453ffc5462d5f3f3a7ac8f7760068b",
     "source_size": 5982
@@ -43,7 +43,7 @@
         "bbox": null,
         "virtual_address": null
       },
-      "summary": "This means you received the customer’s payment but did not provide the service or product the customer requested for some reasons.",
+      "summary": "This means you received the customer\u00e2\u20ac\u2122s payment but did not provide the service or product the customer requested for some reasons.",
       "children": []
     },
     {
@@ -62,7 +62,7 @@
         "bbox": null,
         "virtual_address": null
       },
-      "summary": "This means you received the customer’s payment and have provided the service or delivered the product to the customer.",
+      "summary": "This means you received the customer\u00e2\u20ac\u2122s payment and have provided the service or delivered the product to the customer.",
       "children": []
     },
     {

@@ -2,7 +2,7 @@
   "resource_id": "Payments_Initiate-payment",
   "type": "text",
   "title": "Payments Initiate Payment",
-  "source_path": "/mnt/c/Users/st/Desktop/projects/squadco-mcp/docs/Payments_Initiate-payment.md",
+  "source_path": "docs/Payments_Initiate-payment.md",
   "metadata": {
     "source_hash": "f72e631d8e36be00a940af9e4d135b9f6ff7d85b34de6fc59c0d6418ca162e0c",
     "source_size": 19481

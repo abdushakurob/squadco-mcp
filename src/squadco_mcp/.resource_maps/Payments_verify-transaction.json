@@ -2,7 +2,7 @@
   "resource_id": "Payments_verify-transaction",
   "type": "text",
   "title": "Payments Verify Transaction",
-  "source_path": "/mnt/c/Users/st/Desktop/projects/squadco-mcp/docs/Payments_verify-transaction.md",
+  "source_path": "docs/Payments_verify-transaction.md",
   "metadata": {
     "source_hash": "36709808c8325b99e4ad92217079a39467813acc03a74332115f90b6ec116179",
     "source_size": 5348

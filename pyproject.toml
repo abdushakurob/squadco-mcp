@@ -1,11 +1,11 @@
 [project]
 name = "squadco-mcp"
-version = "0.1.1"
+version = "0.1.2"
 description = "SquadCo API documentation as an MCP server"
 readme = "README.md"
 requires-python = ">=3.10"
 dependencies = [
-    "mcp[cli]>=1.2.0",
+    "mcp[cli]>=0.1.0",
     "citekit>=0.1.0",
 ]
 
@@ -13,12 +13,12 @@ dependencies = [
 squadco-mcp = "squadco_mcp.server:main"
 
 [build-system]
-requires = ["hatchling"]
-build-backend = "hatchling.build"
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
 
-[tool.hatch.build.targets.wheel]
-packages = ["src/squadco_mcp"]
-include = [
-    "src/squadco_mcp/.resource_maps/*.json",
-    "src/squadco_mcp/docs/*.md"
-]
+[tool.setuptools]
+package-dir = {"" = "src"}
+packages = ["squadco_mcp"]
+
+[tool.setuptools.package-data]
+"squadco_mcp" = [".resource_maps/*.json", "docs/*.md"]
