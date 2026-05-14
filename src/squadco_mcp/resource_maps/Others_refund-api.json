@@ -2,7 +2,7 @@
   "resource_id": "Others_refund-api",
   "type": "text",
   "title": "Others Refund Api",
-  "source_path": "docs/Others_refund-api.md",
+  "source_path": "C:/Users/st/Desktop/projects/squadco-mcp/src/squadco_mcp/docs/Others_refund-api.md",
   "metadata": {
     "source_hash": "2dec34d328a222a158aeda2bcf239f3f97d4f5178aeed87ef554a2fc785fc10a",
     "source_size": 4114
@@ -16,112 +16,159 @@
         "modality": "text",
         "pages": null,
         "lines": [
-          22,
-          29
+          23,
+          23
         ],
         "start": null,
         "end": null,
         "bbox": null,
         "virtual_address": null
       },
-      "summary": "This section introduces the Refund API, explaining its purpose and the authorization requirements for making requests.",
+      "summary": "Main heading for the Refund API documentation.",
+      "lines": [
+        23,
+        23
+      ],
       "children": []
     },
     {
-      "id": "RefundAPI.POST_transaction_refund",
-      "title": "POST /transaction/refund",
-      "type": "function",
+      "id": "RefundAPI.Overview",
+      "title": "API Overview and Authentication",
+      "type": "section",
       "location": {
         "modality": "text",
         "pages": null,
         "lines": [
-          30,
-          32
+          24,
+          28
         ],
         "start": null,
         "end": null,
         "bbox": null,
         "virtual_address": null
       },
-      "summary": "This endpoint allows initiating a refund process for an already completed transaction.",
+      "summary": "Explains the purpose of the API and the requirement for Bearer Token authorization.",
+      "lines": [
+        24,
+        28
+      ],
       "children": []
     },
     {
-      "id": "RefundAPI.POST_transaction_refund.Parameters",
+      "id": "RefundAPI.Endpoint",
+      "title": "Refund Endpoint",
+      "type": "method",
+      "location": {
+        "modality": "text",
+        "pages": null,
+        "lines": [
+          29,
+          31
+        ],
+        "start": null,
+        "end": null,
+        "bbox": null,
+        "virtual_address": null
+      },
+      "summary": "Details the POST request endpoint for processing refunds.",
+      "lines": [
+        29,
+        31
+      ],
+      "children": []
+    },
+    {
+      "id": "RefundAPI.Parameters",
       "title": "Parameters",
       "type": "section",
       "location": {
         "modality": "text",
         "pages": null,
         "lines": [
-          33,
-          46
+          32,
+          44
         ],
         "start": null,
         "end": null,
         "bbox": null,
         "virtual_address": null
       },
-      "summary": "This section describes the various body parameters required when making a POST request to the refund endpoint.",
+      "summary": "Defines the required body parameters for the refund request.",
+      "lines": [
+        32,
+        44
+      ],
       "children": []
     },
     {
-      "id": "RefundAPI.POST_transaction_refund.Responses",
+      "id": "RefundAPI.Responses",
       "title": "Responses",
       "type": "section",
       "location": {
         "modality": "text",
         "pages": null,
         "lines": [
-          47,
-          66
+          45,
+          65
         ],
         "start": null,
         "end": null,
         "bbox": null,
         "virtual_address": null
       },
-      "summary": "This section outlines the possible HTTP response codes and their corresponding JSON data structures for the refund API calls.",
+      "summary": "Provides example responses for successful (200) and unauthorized (401) scenarios.",
+      "lines": [
+        45,
+        65
+      ],
       "children": []
     },
     {
-      "id": "RefundAPI.SampleRequest",
-      "title": "Sample Request",
+      "id": "RefundAPI.Samples",
+      "title": "Sample Requests",
       "type": "section",
       "location": {
         "modality": "text",
         "pages": null,
         "lines": [
           67,
-          87
+          85
         ],
         "start": null,
         "end": null,
         "bbox": null,
         "virtual_address": null
       },
-      "summary": "This section provides example JSON payloads for both full and partial refund requests.",
+      "summary": "Provides JSON examples for performing full and partial refunds.",
+      "lines": [
+        67,
+        85
+      ],
       "children": []
     },
     {
-      "id": "GoLiveProduction",
+      "id": "RefundAPI.Production",
       "title": "GO LIVE - Production",
-      "type": "header",
+      "type": "section",
       "location": {
         "modality": "text",
         "pages": null,
         "lines": [
-          88,
-          92
+          87,
+          91
         ],
         "start": null,
         "end": null,
         "bbox": null,
         "virtual_address": null
       },
-      "summary": "This section provides instructions for configuring the Refund API for use in a production environment.",
+      "summary": "Instructions for switching to the production environment using production base URLs and keys.",
+      "lines": [
+        87,
+        91
+      ],
       "children": []
     }
   ],
-  "created_at": "2026-05-14T03:30:20.005239Z"
+  "created_at": "2026-05-14T17:20:41.096547Z"
 }

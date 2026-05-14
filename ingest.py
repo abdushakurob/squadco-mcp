@@ -3,14 +3,14 @@ import os
 from citekit import CiteKitClient
 from citekit.mapper.gemini import GeminiMapper
 
-mapper = GeminiMapper(model="gemini-2.0-flash", api_key=os.environ.get("GEMINI_API_KEY"))
+mapper = GeminiMapper(model="gemini-3.1-flash-lite", api_key=os.environ.get("GEMINI_API_KEY"))
 
 # Use base_dir="." to ensure all generated resource maps use portable relative paths.
 # Maps are stored inside the package structure for distribution.
 client = CiteKitClient(
     mapper=mapper,
     base_dir=".",
-    storage_dir="src/squadco_mcp/.resource_maps"
+    storage_dir="src/squadco_mcp/resource_maps"
 )
 
 async def ingest_all():
@@ -37,9 +37,9 @@ async def ingest_all():
                 resource_type="text",
                 resource_id=resource_id
             )
-            print(f"  ✓ {len(resource_map.nodes)} nodes found\n")
+            print(f"  [OK] {len(resource_map.nodes)} nodes found\n")
         except Exception as e:
-            print(f"  ✗ Failed: {e}\n")
+            print(f"  [FAIL] {e}\n")
 
 if __name__ == "__main__":
     if not os.environ.get("GEMINI_API_KEY"):

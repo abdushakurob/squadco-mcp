@@ -1,0 +1,105 @@
+{
+  "resource_id": "Value-added-services_SMS_bucket",
+  "type": "text",
+  "title": "Value Added Services Sms Bucket",
+  "source_path": "C:/Users/st/Desktop/projects/squadco-mcp/src/squadco_mcp/docs/Value-added-services_SMS_bucket.md",
+  "metadata": {
+    "source_hash": "cea82db41f8e6b876be31d1c425302286318fb5bebbfcfb43504db35b2e22498",
+    "source_size": 7027
+  },
+  "nodes": [
+    {
+      "id": "Bucket.Overview",
+      "title": "Bucket",
+      "type": "header",
+      "location": {
+        "modality": "text",
+        "pages": null,
+        "lines": [
+          34,
+          35
+        ],
+        "start": null,
+        "end": null,
+        "bbox": null,
+        "virtual_address": null
+      },
+      "summary": "Introduction to the bucket feature, which organizes phone numbers in Excel format for SMS communication.",
+      "lines": [
+        34,
+        35
+      ],
+      "children": []
+    },
+    {
+      "id": "Bucket.CreateBucket",
+      "title": "Create Bucket",
+      "type": "function",
+      "location": {
+        "modality": "text",
+        "pages": null,
+        "lines": [
+          36,
+          68
+        ],
+        "start": null,
+        "end": null,
+        "bbox": null,
+        "virtual_address": null
+      },
+      "summary": "Describes the endpoint to create a new SMS bucket, including parameters and a sample response.",
+      "lines": [
+        36,
+        68
+      ],
+      "children": []
+    },
+    {
+      "id": "Bucket.GetAllCreatedBucket",
+      "title": "Get All Created Bucket",
+      "type": "function",
+      "location": {
+        "modality": "text",
+        "pages": null,
+        "lines": [
+          69,
+          107
+        ],
+        "start": null,
+        "end": null,
+        "bbox": null,
+        "virtual_address": null
+      },
+      "summary": "Describes the endpoint used to retrieve a list of all created buckets.",
+      "lines": [
+        69,
+        107
+      ],
+      "children": []
+    },
+    {
+      "id": "Bucket.DeleteCreatedBucket",
+      "title": "Delete Created Bucket",
+      "type": "function",
+      "location": {
+        "modality": "text",
+        "pages": null,
+        "lines": [
+          108,
+          131
+        ],
+        "start": null,
+        "end": null,
+        "bbox": null,
+        "virtual_address": null
+      },
+      "summary": "Describes the endpoint used to delete an existing bucket by its UUID.",
+      "lines": [
+        108,
+        131
+      ],
+      "children": []
+    }
+  ],
+  "created_at": "2026-05-14T17:22:38.714320Z"
+}

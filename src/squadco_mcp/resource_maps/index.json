@@ -2,21 +2,21 @@
   "resource_id": "index",
   "type": "text",
   "title": "Index",
-  "source_path": "docs/index.md",
+  "source_path": "C:/Users/st/Desktop/projects/squadco-mcp/src/squadco_mcp/docs/index.md",
   "metadata": {
     "source_hash": "cfe364952a6a8e4c0cc616d86eac801821cdc74f57f54640046eace83dcf2ad5",
     "source_size": 3699
   },
   "nodes": [
     {
-      "id": "WelcomeToSquadDocumentation",
+      "id": "Welcome",
       "title": "Welcome to the Squad Documentation",
       "type": "header",
       "location": {
         "modality": "text",
         "pages": null,
         "lines": [
-          21,
+          23,
           23
         ],
         "start": null,
@@ -24,47 +24,59 @@
         "bbox": null,
         "virtual_address": null
       },
-      "summary": "This section welcomes users to Squad's documentation, highlighting their global payment feature for making and receiving payments worldwide.",
+      "summary": "This is the landing page title for the Squad payment documentation.",
+      "lines": [
+        23,
+        23
+      ],
       "children": []
     },
     {
       "id": "GettingStarted",
       "title": "Getting Started",
-      "type": "header",
+      "type": "section",
       "location": {
         "modality": "text",
         "pages": null,
         "lines": [
           25,
-          33
+          30
         ],
         "start": null,
         "end": null,
         "bbox": null,
         "virtual_address": null
       },
-      "summary": "This section provides an overview of Squad's core services, including accepting payments, making transfers, setting up recurring payments, and initiating refunds.",
+      "summary": "An overview of primary payment services including acceptance, transfers, recurring payments, and refunds.",
+      "lines": [
+        25,
+        30
+      ],
       "children": []
     },
     {
-      "id": "GettingStarted.BeforeYouBegin",
+      "id": "BeforeYouBegin",
       "title": "Before You Begin",
-      "type": "header",
+      "type": "section",
       "location": {
         "modality": "text",
         "pages": null,
         "lines": [
-          35,
-          39
+          31,
+          36
         ],
         "start": null,
         "end": null,
         "bbox": null,
         "virtual_address": null
       },
-      "summary": "This section outlines the essential steps users must complete before integrating with the Squad payment gateway, such as account creation and testing.",
+      "summary": "Outlines the four essential steps to start using the Squad payment gateway, from account creation to testing.",
+      "lines": [
+        31,
+        36
+      ],
       "children": []
     }
   ],
-  "created_at": "2026-05-14T03:28:59.430678Z"
+  "created_at": "2026-05-14T17:20:26.907178Z"
 }

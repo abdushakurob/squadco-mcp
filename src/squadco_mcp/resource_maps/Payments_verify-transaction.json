@@ -1,0 +1,105 @@
+{
+  "resource_id": "Payments_verify-transaction",
+  "type": "text",
+  "title": "Payments Verify Transaction",
+  "source_path": "C:/Users/st/Desktop/projects/squadco-mcp/src/squadco_mcp/docs/Payments_verify-transaction.md",
+  "metadata": {
+    "source_hash": "36709808c8325b99e4ad92217079a39467813acc03a74332115f90b6ec116179",
+    "source_size": 5348
+  },
+  "nodes": [
+    {
+      "id": "VerifyTransaction",
+      "title": "Verify Transaction",
+      "type": "header",
+      "location": {
+        "modality": "text",
+        "pages": null,
+        "lines": [
+          32,
+          32
+        ],
+        "start": null,
+        "end": null,
+        "bbox": null,
+        "virtual_address": null
+      },
+      "summary": "This section introduces the transaction verification endpoint for querying transaction status using a unique reference.",
+      "lines": [
+        32,
+        32
+      ],
+      "children": []
+    },
+    {
+      "id": "VerifyTransaction.ResponseData",
+      "title": "Response Data Object",
+      "type": "section",
+      "location": {
+        "modality": "text",
+        "pages": null,
+        "lines": [
+          40,
+          40
+        ],
+        "start": null,
+        "end": null,
+        "bbox": null,
+        "virtual_address": null
+      },
+      "summary": "Describes the structure of the data object returned in transaction verification responses.",
+      "lines": [
+        40,
+        40
+      ],
+      "children": []
+    },
+    {
+      "id": "VerifyTransaction.VerifyMethod",
+      "title": "This verifies a transaction",
+      "type": "method",
+      "location": {
+        "modality": "text",
+        "pages": null,
+        "lines": [
+          47,
+          47
+        ],
+        "start": null,
+        "end": null,
+        "bbox": null,
+        "virtual_address": null
+      },
+      "summary": "Explains how to verify a transaction by querying the verification endpoint with a unique transaction reference.",
+      "lines": [
+        47,
+        47
+      ],
+      "children": []
+    },
+    {
+      "id": "VerifyPOS.VerifyPOSMethod",
+      "title": "Verify POS Transaction",
+      "type": "header",
+      "location": {
+        "modality": "text",
+        "pages": null,
+        "lines": [
+          98,
+          98
+        ],
+        "start": null,
+        "end": null,
+        "bbox": null,
+        "virtual_address": null
+      },
+      "summary": "Details the process and endpoint for verifying the validity of a POS transaction.",
+      "lines": [
+        98,
+        98
+      ],
+      "children": []
+    }
+  ],
+  "created_at": "2026-05-14T17:22:10.105312Z"
+}

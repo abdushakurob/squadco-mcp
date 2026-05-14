@@ -2,145 +2,150 @@
   "resource_id": "Payments_squad-woo-squad-plugin",
   "type": "text",
   "title": "Payments Squad Woo Squad Plugin",
-  "source_path": "docs/Payments_squad-woo-squad-plugin.md",
+  "source_path": "C:/Users/st/Desktop/projects/squadco-mcp/src/squadco_mcp/docs/Payments_squad-woo-squad-plugin.md",
   "metadata": {
     "source_hash": "e976187ef6e1ef81932bbde9443efdbcf3244498e21ee506c5747b9ec6675cb0",
     "source_size": 5986
   },
   "nodes": [
     {
-      "id": "SquadWooCommercePlugin",
+      "id": "SquadWooCommercePlugin.Header",
       "title": "Squad Woo Commerce Plugin",
       "type": "header",
       "location": {
         "modality": "text",
         "pages": null,
         "lines": [
-          30,
-          31
+          31,
+          33
         ],
         "start": null,
         "end": null,
         "bbox": null,
         "virtual_address": null
       },
-      "summary": "This section introduces the Squad Woo Commerce Plugin for collecting payments on WordPress sites using the Squad Payment Gateway.",
+      "summary": "Introduction to the Squad WooCommerce payment gateway plugin.",
+      "lines": [
+        31,
+        33
+      ],
       "children": []
     },
     {
       "id": "SquadWooCommercePlugin.Overview",
       "title": "Overview",
-      "type": "header",
+      "type": "section",
       "location": {
         "modality": "text",
         "pages": null,
         "lines": [
-          32,
-          41
+          34,
+          43
         ],
         "start": null,
         "end": null,
         "bbox": null,
         "virtual_address": null
       },
-      "summary": "Provides an overview of Squad's secure payment gateway, its global reach, and the various payment methods supported for WooCommerce.",
+      "summary": "Describes the purpose of the Squad plugin and the payment methods supported.",
+      "lines": [
+        34,
+        43
+      ],
       "children": []
     },
     {
       "id": "SquadWooCommercePlugin.Benefits",
       "title": "Benefits of using Squad payment gateway",
-      "type": "header",
+      "type": "section",
       "location": {
         "modality": "text",
         "pages": null,
         "lines": [
-          43,
-          51
+          46,
+          54
         ],
         "start": null,
         "end": null,
         "bbox": null,
         "virtual_address": null
       },
-      "summary": "Outlines the key advantages of integrating the Squad payment gateway, including ease of use, fraud detection, and customer support.",
+      "summary": "Lists the key advantages of integrating the Squad payment gateway.",
+      "lines": [
+        46,
+        54
+      ],
       "children": []
     },
     {
-      "id": "SquadWooCommercePlugin.PluginConfiguration",
+      "id": "SquadWooCommercePlugin.Configuration",
       "title": "Plugin Configuration",
-      "type": "header",
+      "type": "section",
       "location": {
         "modality": "text",
         "pages": null,
         "lines": [
-          53,
-          67
+          57,
+          71
         ],
         "start": null,
         "end": null,
         "bbox": null,
         "virtual_address": null
       },
-      "summary": "Details the necessary steps and settings for configuring the Squad WooCommerce plugin within the WordPress admin dashboard.",
-      "children": []
-    },
-    {
-      "id": "SquadWooCommercePlugin.PluginConfiguration.ToConfigure",
-      "title": "To configure the plugin",
-      "type": "header",
-      "location": {
-        "modality": "text",
-        "pages": null,
-        "lines": [
-          54,
-          67
-        ],
-        "start": null,
-        "end": null,
-        "bbox": null,
-        "virtual_address": null
-      },
-      "summary": "Provides a step-by-step guide for enabling and setting up the Squad Payment Gateway, including entering API keys and webhook instructions.",
+      "summary": "Provides step-by-step instructions on how to configure the Squad plugin within WooCommerce.",
+      "lines": [
+        57,
+        71
+      ],
       "children": []
     },
     {
       "id": "SquadWooCommercePlugin.ImageDescriptions",
       "title": "Image Descriptions",
-      "type": "header",
+      "type": "section",
       "location": {
         "modality": "text",
         "pages": null,
         "lines": [
-          69,
-          76
+          74,
+          80
         ],
         "start": null,
         "end": null,
         "bbox": null,
         "virtual_address": null
       },
-      "summary": "Describes the visual aids provided, which illustrate the Squad settings page, a sample order page, and the Squad Payment Modal.",
+      "summary": "Contains visual references for plugin settings and user flow.",
+      "lines": [
+        74,
+        80
+      ],
       "children": []
     },
     {
       "id": "SquadWooCommercePlugin.Download",
       "title": "Download",
-      "type": "header",
+      "type": "section",
       "location": {
         "modality": "text",
         "pages": null,
         "lines": [
-          77,
-          78
+          81,
+          82
         ],
         "start": null,
         "end": null,
         "bbox": null,
         "virtual_address": null
       },
-      "summary": "Offers a direct link for users to download the Squad Payment Gateway plugin for their WordPress WooCommerce site.",
+      "summary": "Provides a link to download the plugin.",
+      "lines": [
+        81,
+        82
+      ],
       "children": []
     }
   ],
-  "created_at": "2026-05-14T03:39:44.607532Z"
+  "created_at": "2026-05-14T17:21:59.263762Z"
 }

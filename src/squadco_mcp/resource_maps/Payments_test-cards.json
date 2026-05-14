@@ -1,0 +1,59 @@
+{
+  "resource_id": "Payments_test-cards",
+  "type": "text",
+  "title": "Payments Test Cards",
+  "source_path": "C:/Users/st/Desktop/projects/squadco-mcp/src/squadco_mcp/docs/Payments_test-cards.md",
+  "metadata": {
+    "source_hash": "6d005a80ff6a9443e93da5cb11c1602943d674f90feac80b19a61099f86b96f8",
+    "source_size": 2197
+  },
+  "nodes": [
+    {
+      "id": "TestCards",
+      "title": "Test Cards",
+      "type": "header",
+      "location": {
+        "modality": "text",
+        "pages": null,
+        "lines": [
+          29,
+          29
+        ],
+        "start": null,
+        "end": null,
+        "bbox": null,
+        "virtual_address": null
+      },
+      "summary": "This section introduces the test cards available for integration testing in the Squad payment environment.",
+      "lines": [
+        29,
+        29
+      ],
+      "children": []
+    },
+    {
+      "id": "TestCards.Images",
+      "title": "Test Card Visuals",
+      "type": "section",
+      "location": {
+        "modality": "text",
+        "pages": null,
+        "lines": [
+          30,
+          31
+        ],
+        "start": null,
+        "end": null,
+        "bbox": null,
+        "virtual_address": null
+      },
+      "summary": "Provides visual representations of the front and back of the test cards used for integration testing.",
+      "lines": [
+        30,
+        31
+      ],
+      "children": []
+    }
+  ],
+  "created_at": "2026-05-14T17:22:04.547776Z"
+}

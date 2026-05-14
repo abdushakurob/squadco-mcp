@@ -1,0 +1,151 @@
+{
+  "resource_id": "Virtual-accounts_encryption-decryption",
+  "type": "text",
+  "title": "Virtual Accounts Encryption Decryption",
+  "source_path": "C:/Users/st/Desktop/projects/squadco-mcp/src/squadco_mcp/docs/Virtual-accounts_encryption-decryption.md",
+  "metadata": {
+    "source_hash": "4e716306862d5f2eceff8b05f261713f5521b9532e05534bb864730f2af4708a",
+    "source_size": 11160
+  },
+  "nodes": [
+    {
+      "id": "EncryptionDecryption",
+      "title": "Encryption & Decryption",
+      "type": "header",
+      "location": {
+        "modality": "text",
+        "pages": null,
+        "lines": [
+          23,
+          23
+        ],
+        "start": null,
+        "end": null,
+        "bbox": null,
+        "virtual_address": null
+      },
+      "summary": "Introduction to the encryption and decryption functionality for merchant transactions.",
+      "lines": [
+        23,
+        23
+      ],
+      "children": []
+    },
+    {
+      "id": "Javascript.Encryption",
+      "title": "Encryption (JavaScript)",
+      "type": "method",
+      "location": {
+        "modality": "text",
+        "pages": null,
+        "lines": [
+          26,
+          31
+        ],
+        "start": null,
+        "end": null,
+        "bbox": null,
+        "virtual_address": null
+      },
+      "summary": "JavaScript implementation for encrypting data using AES-256.",
+      "lines": [
+        26,
+        31
+      ],
+      "children": []
+    },
+    {
+      "id": "Javascript.Decryption",
+      "title": "Decryption (JavaScript)",
+      "type": "method",
+      "location": {
+        "modality": "text",
+        "pages": null,
+        "lines": [
+          35,
+          41
+        ],
+        "start": null,
+        "end": null,
+        "bbox": null,
+        "virtual_address": null
+      },
+      "summary": "JavaScript implementation for decrypting data using AES-256.",
+      "lines": [
+        35,
+        41
+      ],
+      "children": []
+    },
+    {
+      "id": "Python.EncryptionDecryption",
+      "title": "Python Encryption & Decryption",
+      "type": "class",
+      "location": {
+        "modality": "text",
+        "pages": null,
+        "lines": [
+          46,
+          61
+        ],
+        "start": null,
+        "end": null,
+        "bbox": null,
+        "virtual_address": null
+      },
+      "summary": "Python implementation using PyCryptodome for AES encryption and decryption tokens.",
+      "lines": [
+        46,
+        61
+      ],
+      "children": []
+    },
+    {
+      "id": "PHP.AES",
+      "title": "PHP AES Class",
+      "type": "class",
+      "location": {
+        "modality": "text",
+        "pages": null,
+        "lines": [
+          70,
+          87
+        ],
+        "start": null,
+        "end": null,
+        "bbox": null,
+        "virtual_address": null
+      },
+      "summary": "PHP class providing methods to encrypt and decrypt tokens using OpenSSL and AES-256.",
+      "lines": [
+        70,
+        87
+      ],
+      "children": []
+    },
+    {
+      "id": "CSharp.ManagedAesSample",
+      "title": "C# ManagedAesSample",
+      "type": "class",
+      "location": {
+        "modality": "text",
+        "pages": null,
+        "lines": [
+          110,
+          169
+        ],
+        "start": null,
+        "end": null,
+        "bbox": null,
+        "virtual_address": null
+      },
+      "summary": "C# class demonstrating AES management, encryption, and decryption using System.Security.Cryptography.",
+      "lines": [
+        110,
+        169
+      ],
+      "children": []
+    }
+  ],
+  "created_at": "2026-05-14T17:23:06.481847Z"
+}

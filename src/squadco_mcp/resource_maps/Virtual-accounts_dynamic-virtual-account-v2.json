@@ -1,0 +1,335 @@
+{
+  "resource_id": "Virtual-accounts_dynamic-virtual-account-v2",
+  "type": "text",
+  "title": "Virtual Accounts Dynamic Virtual Account V2",
+  "source_path": "C:/Users/st/Desktop/projects/squadco-mcp/src/squadco_mcp/docs/Virtual-accounts_dynamic-virtual-account-v2.md",
+  "metadata": {
+    "source_hash": "68cbb909bfae04acdf648057acc1267e79346494b2967ea9ec475b5d240bfd60",
+    "source_size": 27543
+  },
+  "nodes": [
+    {
+      "id": "DynamicVirtualAccount.Overview",
+      "title": "Dynamic Virtual Account Overview",
+      "type": "header",
+      "location": {
+        "modality": "text",
+        "pages": null,
+        "lines": [
+          31,
+          41
+        ],
+        "start": null,
+        "end": null,
+        "bbox": null,
+        "virtual_address": null
+      },
+      "summary": "Introduction to the dynamic virtual account module which allows generating a pool of accounts for transaction-based collections.",
+      "lines": [
+        31,
+        41
+      ],
+      "children": []
+    },
+    {
+      "id": "DynamicVirtualAccount.ProcessFlow",
+      "title": "Process Flow",
+      "type": "section",
+      "location": {
+        "modality": "text",
+        "pages": null,
+        "lines": [
+          42,
+          51
+        ],
+        "start": null,
+        "end": null,
+        "bbox": null,
+        "virtual_address": null
+      },
+      "summary": "Describes the workflow from account profiling to transaction initiation and webhook triggering.",
+      "lines": [
+        42,
+        51
+      ],
+      "children": []
+    },
+    {
+      "id": "DynamicVirtualAccount.APIKeys",
+      "title": "API Keys (Test Environment)",
+      "type": "section",
+      "location": {
+        "modality": "text",
+        "pages": null,
+        "lines": [
+          54,
+          58
+        ],
+        "start": null,
+        "end": null,
+        "bbox": null,
+        "virtual_address": null
+      },
+      "summary": "Instructions for setting up and obtaining API keys in the sandbox environment.",
+      "lines": [
+        54,
+        58
+      ],
+      "children": []
+    },
+    {
+      "id": "DynamicVirtualAccount.CreateVA",
+      "title": "Create Dynamic VA Accounts",
+      "type": "method",
+      "location": {
+        "modality": "text",
+        "pages": null,
+        "lines": [
+          61,
+          116
+        ],
+        "start": null,
+        "end": null,
+        "bbox": null,
+        "virtual_address": null
+      },
+      "summary": "API endpoint to create and assign dynamic virtual accounts to a merchant's pool.",
+      "lines": [
+        61,
+        116
+      ],
+      "children": []
+    },
+    {
+      "id": "DynamicVirtualAccount.InstantSettlement",
+      "title": "Instant Settlement",
+      "type": "section",
+      "location": {
+        "modality": "text",
+        "pages": null,
+        "lines": [
+          118,
+          125
+        ],
+        "start": null,
+        "end": null,
+        "bbox": null,
+        "virtual_address": null
+      },
+      "summary": "Explains how to route funds to a GTBank corporate account using the beneficiary_account parameter.",
+      "lines": [
+        118,
+        125
+      ],
+      "children": []
+    },
+    {
+      "id": "DynamicVirtualAccount.CustomName",
+      "title": "Custom DVA name",
+      "type": "section",
+      "location": {
+        "modality": "text",
+        "pages": null,
+        "lines": [
+          127,
+          137
+        ],
+        "start": null,
+        "end": null,
+        "bbox": null,
+        "virtual_address": null
+      },
+      "summary": "Details on how to customize the business name associated with generated virtual accounts.",
+      "lines": [
+        127,
+        137
+      ],
+      "children": []
+    },
+    {
+      "id": "DynamicVirtualAccount.InitiateTransaction",
+      "title": "Initiate Dynamic Virtual Account Transaction",
+      "type": "method",
+      "location": {
+        "modality": "text",
+        "pages": null,
+        "lines": [
+          139,
+          198
+        ],
+        "start": null,
+        "end": null,
+        "bbox": null,
+        "virtual_address": null
+      },
+      "summary": "API endpoint to retrieve a specific virtual account from the pool for a transaction.",
+      "lines": [
+        139,
+        198
+      ],
+      "children": []
+    },
+    {
+      "id": "DynamicVirtualAccount.RequeryTransaction",
+      "title": "Re-query Transaction",
+      "type": "method",
+      "location": {
+        "modality": "text",
+        "pages": null,
+        "lines": [
+          200,
+          245
+        ],
+        "start": null,
+        "end": null,
+        "bbox": null,
+        "virtual_address": null
+      },
+      "summary": "API endpoint to check the status of a specific transaction including expired or mismatched statuses.",
+      "lines": [
+        200,
+        245
+      ],
+      "children": []
+    },
+    {
+      "id": "DynamicVirtualAccount.EditAmountDuration",
+      "title": "Edit Amount/Duration",
+      "type": "method",
+      "location": {
+        "modality": "text",
+        "pages": null,
+        "lines": [
+          247,
+          292
+        ],
+        "start": null,
+        "end": null,
+        "bbox": null,
+        "virtual_address": null
+      },
+      "summary": "API endpoint to update the parameters of an already initiated dynamic transaction.",
+      "lines": [
+        247,
+        292
+      ],
+      "children": []
+    },
+    {
+      "id": "DynamicVirtualAccount.SimulatePayment",
+      "title": "Simulate Payment Endpoint",
+      "type": "method",
+      "location": {
+        "modality": "text",
+        "pages": null,
+        "lines": [
+          294,
+          321
+        ],
+        "start": null,
+        "end": null,
+        "bbox": null,
+        "virtual_address": null
+      },
+      "summary": "Sandbox-only tool to simulate incoming payments for testing purposes.",
+      "lines": [
+        294,
+        321
+      ],
+      "children": []
+    },
+    {
+      "id": "DynamicVirtualAccount.Refunds",
+      "title": "DVA Refunds",
+      "type": "section",
+      "location": {
+        "modality": "text",
+        "pages": null,
+        "lines": [
+          323,
+          342
+        ],
+        "start": null,
+        "end": null,
+        "bbox": null,
+        "virtual_address": null
+      },
+      "summary": "Explains how refunds are handled for expired or mismatched transactions and how to customize settlement.",
+      "lines": [
+        323,
+        342
+      ],
+      "children": []
+    },
+    {
+      "id": "DynamicVirtualAccount.Webhooks",
+      "title": "Webhooks",
+      "type": "section",
+      "location": {
+        "modality": "text",
+        "pages": null,
+        "lines": [
+          345,
+          396
+        ],
+        "start": null,
+        "end": null,
+        "bbox": null,
+        "virtual_address": null
+      },
+      "summary": "Describes event notifications for successes, mismatches, and expirations.",
+      "lines": [
+        345,
+        396
+      ],
+      "children": []
+    },
+    {
+      "id": "DynamicVirtualAccount.HashSignature",
+      "title": "Hash Signature Validation",
+      "type": "section",
+      "location": {
+        "modality": "text",
+        "pages": null,
+        "lines": [
+          398,
+          477
+        ],
+        "start": null,
+        "end": null,
+        "bbox": null,
+        "virtual_address": null
+      },
+      "summary": "Security implementation guide for validating webhook payloads using SHA-512 hashes.",
+      "lines": [
+        398,
+        477
+      ],
+      "children": []
+    },
+    {
+      "id": "DynamicVirtualAccount.ErrorLog",
+      "title": "Webhook Error Log",
+      "type": "section",
+      "location": {
+        "modality": "text",
+        "pages": null,
+        "lines": [
+          478,
+          513
+        ],
+        "start": null,
+        "end": null,
+        "bbox": null,
+        "virtual_address": null
+      },
+      "summary": "Retrieval of failed webhook delivery logs to ensure data integrity.",
+      "lines": [
+        478,
+        513
+      ],
+      "children": []
+    }
+  ],
+  "created_at": "2026-05-14T17:23:00.500975Z"
+}

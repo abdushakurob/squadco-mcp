@@ -1,0 +1,105 @@
+{
+  "resource_id": "Virtual-accounts_virtual-account",
+  "type": "text",
+  "title": "Virtual Accounts Virtual Account",
+  "source_path": "C:/Users/st/Desktop/projects/squadco-mcp/src/squadco_mcp/docs/Virtual-accounts_virtual-account.md",
+  "metadata": {
+    "source_hash": "1d368fe4f9f3a967599df038a54fbf07399f9b73406cd217663b4bc136cfb46b",
+    "source_size": 3933
+  },
+  "nodes": [
+    {
+      "id": "VirtualAccounts",
+      "title": "Virtual Accounts",
+      "type": "header",
+      "location": {
+        "modality": "text",
+        "pages": null,
+        "lines": [
+          25,
+          25
+        ],
+        "start": null,
+        "end": null,
+        "bbox": null,
+        "virtual_address": null
+      },
+      "summary": "Introduction to the Squad Virtual Accounts API for processing customer payments.",
+      "lines": [
+        25,
+        25
+      ],
+      "children": []
+    },
+    {
+      "id": "GettingStarted",
+      "title": "Getting Started",
+      "type": "section",
+      "location": {
+        "modality": "text",
+        "pages": null,
+        "lines": [
+          27,
+          30
+        ],
+        "start": null,
+        "end": null,
+        "bbox": null,
+        "virtual_address": null
+      },
+      "summary": "Outlines the steps required to set up a sandbox account and retrieve API credentials.",
+      "lines": [
+        27,
+        30
+      ],
+      "children": []
+    },
+    {
+      "id": "AuthorizationAndEnvironment",
+      "title": "Authorization and Environment",
+      "type": "section",
+      "location": {
+        "modality": "text",
+        "pages": null,
+        "lines": [
+          32,
+          38
+        ],
+        "start": null,
+        "end": null,
+        "bbox": null,
+        "virtual_address": null
+      },
+      "summary": "Details the base URLs for testing and production environments and the requirement for Bearer token authorization.",
+      "lines": [
+        32,
+        38
+      ],
+      "children": []
+    },
+    {
+      "id": "Explore",
+      "title": "Explore",
+      "type": "header",
+      "location": {
+        "modality": "text",
+        "pages": null,
+        "lines": [
+          39,
+          44
+        ],
+        "start": null,
+        "end": null,
+        "bbox": null,
+        "virtual_address": null
+      },
+      "summary": "Explains the functional benefits of virtual accounts and how webhook notifications work.",
+      "lines": [
+        39,
+        44
+      ],
+      "children": []
+    }
+  ],
+  "created_at": "2026-05-14T17:23:12.428190Z"
+}

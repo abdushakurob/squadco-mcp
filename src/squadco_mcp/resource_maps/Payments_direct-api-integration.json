@@ -1,0 +1,220 @@
+{
+  "resource_id": "Payments_direct-api-integration",
+  "type": "text",
+  "title": "Payments Direct Api Integration",
+  "source_path": "C:/Users/st/Desktop/projects/squadco-mcp/src/squadco_mcp/docs/Payments_direct-api-integration.md",
+  "metadata": {
+    "source_hash": "137b0e2d9871447b92613dac8f22670b40e2b6e0ab8ac402213c29ba0bdf7363",
+    "source_size": 21826
+  },
+  "nodes": [
+    {
+      "id": "Direct_API_Integration.Header",
+      "title": "Direct API Integration",
+      "type": "header",
+      "location": {
+        "modality": "text",
+        "pages": null,
+        "lines": [
+          31,
+          31
+        ],
+        "start": null,
+        "end": null,
+        "bbox": null,
+        "virtual_address": null
+      },
+      "summary": "This section provides an overview of the direct API integration suite for processing card, bank, and USSD payments.",
+      "lines": [
+        31,
+        31
+      ],
+      "children": []
+    },
+    {
+      "id": "Direct_API_Integration.Direct_CARD",
+      "title": "Direct CARD",
+      "type": "section",
+      "location": {
+        "modality": "text",
+        "pages": null,
+        "lines": [
+          40,
+          56
+        ],
+        "start": null,
+        "end": null,
+        "bbox": null,
+        "virtual_address": null
+      },
+      "summary": "Describes the workflow and scenarios for processing direct card payments, including requirements for PCI-DSS compliance.",
+      "lines": [
+        40,
+        56
+      ],
+      "children": []
+    },
+    {
+      "id": "Direct_API_Integration.Step_1_Charge_Card",
+      "title": "Step #1: Charge Card",
+      "type": "function",
+      "location": {
+        "modality": "text",
+        "pages": null,
+        "lines": [
+          57,
+          91
+        ],
+        "start": null,
+        "end": null,
+        "bbox": null,
+        "virtual_address": null
+      },
+      "summary": "Details the endpoint and parameters for initiating a card charge payment request.",
+      "lines": [
+        57,
+        91
+      ],
+      "children": []
+    },
+    {
+      "id": "Direct_API_Integration.Sample_Request",
+      "title": "Sample Request",
+      "type": "section",
+      "location": {
+        "modality": "text",
+        "pages": null,
+        "lines": [
+          92,
+          114
+        ],
+        "start": null,
+        "end": null,
+        "bbox": null,
+        "virtual_address": null
+      },
+      "summary": "Provides a JSON code example for the card charge initiation process.",
+      "lines": [
+        92,
+        114
+      ],
+      "children": []
+    },
+    {
+      "id": "Direct_API_Integration.Step_2_Authorize_Payment",
+      "title": "Step #2: Authorize Payment",
+      "type": "function",
+      "location": {
+        "modality": "text",
+        "pages": null,
+        "lines": [
+          215,
+          237
+        ],
+        "start": null,
+        "end": null,
+        "bbox": null,
+        "virtual_address": null
+      },
+      "summary": "Explains how to authorize payments following the initial charge, specifically for PIN, OTP, or 3DS scenarios.",
+      "lines": [
+        215,
+        237
+      ],
+      "children": []
+    },
+    {
+      "id": "Direct_API_Integration.Direct_GTBank_Account_Debit",
+      "title": "Direct GTBank account debit",
+      "type": "function",
+      "location": {
+        "modality": "text",
+        "pages": null,
+        "lines": [
+          318,
+          353
+        ],
+        "start": null,
+        "end": null,
+        "bbox": null,
+        "virtual_address": null
+      },
+      "summary": "Details the API endpoint and parameters for initiating direct debits from GTBank accounts.",
+      "lines": [
+        318,
+        353
+      ],
+      "children": []
+    },
+    {
+      "id": "Direct_API_Integration.Validate_Payment_For_Bank",
+      "title": "Validate Payment for Direct Bank API Payment",
+      "type": "function",
+      "location": {
+        "modality": "text",
+        "pages": null,
+        "lines": [
+          389,
+          404
+        ],
+        "start": null,
+        "end": null,
+        "bbox": null,
+        "virtual_address": null
+      },
+      "summary": "Describes the validation process required to complete a bank account debit using OTP or Token authentication.",
+      "lines": [
+        389,
+        404
+      ],
+      "children": []
+    },
+    {
+      "id": "Direct_API_Integration.Initiate_USSD_Payment",
+      "title": "Initiate USSD payment",
+      "type": "function",
+      "location": {
+        "modality": "text",
+        "pages": null,
+        "lines": [
+          447,
+          459
+        ],
+        "start": null,
+        "end": null,
+        "bbox": null,
+        "virtual_address": null
+      },
+      "summary": "Explains the endpoint and requirements for processing USSD transactions directly.",
+      "lines": [
+        447,
+        459
+      ],
+      "children": []
+    },
+    {
+      "id": "Direct_API_Integration.Go_Live",
+      "title": "Go Live",
+      "type": "section",
+      "location": {
+        "modality": "text",
+        "pages": null,
+        "lines": [
+          531,
+          537
+        ],
+        "start": null,
+        "end": null,
+        "bbox": null,
+        "virtual_address": null
+      },
+      "summary": "Outlines the steps required to transition from the sandbox environment to the production live environment.",
+      "lines": [
+        531,
+        537
+      ],
+      "children": []
+    }
+  ],
+  "created_at": "2026-05-14T17:20:54.664827Z"
+}

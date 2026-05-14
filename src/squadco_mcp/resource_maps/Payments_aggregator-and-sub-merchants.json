@@ -1,0 +1,105 @@
+{
+  "resource_id": "Payments_aggregator-and-sub-merchants",
+  "type": "text",
+  "title": "Payments Aggregator And Sub Merchants",
+  "source_path": "C:/Users/st/Desktop/projects/squadco-mcp/src/squadco_mcp/docs/Payments_aggregator-and-sub-merchants.md",
+  "metadata": {
+    "source_hash": "36d09ee3bc81cea3962dc3e087452c707042208d5d6453c613af22d2e4553e0d",
+    "source_size": 4875
+  },
+  "nodes": [
+    {
+      "id": "AggregatorAndSubMerchants",
+      "title": "Aggregator and Sub-merchants",
+      "type": "header",
+      "location": {
+        "modality": "text",
+        "pages": null,
+        "lines": [
+          34,
+          34
+        ],
+        "start": null,
+        "end": null,
+        "bbox": null,
+        "virtual_address": null
+      },
+      "summary": "Main header for the documentation regarding aggregator profile and sub-merchant creation.",
+      "lines": [
+        34,
+        34
+      ],
+      "children": []
+    },
+    {
+      "id": "EnvironmentDetails",
+      "title": "Environment Details",
+      "type": "section",
+      "location": {
+        "modality": "text",
+        "pages": null,
+        "lines": [
+          39,
+          42
+        ],
+        "start": null,
+        "end": null,
+        "bbox": null,
+        "virtual_address": null
+      },
+      "summary": "Lists the environment base URLs and authorization requirements for API requests.",
+      "lines": [
+        39,
+        42
+      ],
+      "children": []
+    },
+    {
+      "id": "CreateSubMerchants",
+      "title": "Create Sub-merchants",
+      "type": "section",
+      "location": {
+        "modality": "text",
+        "pages": null,
+        "lines": [
+          43,
+          62
+        ],
+        "start": null,
+        "end": null,
+        "bbox": null,
+        "virtual_address": null
+      },
+      "summary": "Details the API endpoint and parameters required to create a new sub-merchant.",
+      "lines": [
+        43,
+        62
+      ],
+      "children": []
+    },
+    {
+      "id": "Responses",
+      "title": "Responses",
+      "type": "section",
+      "location": {
+        "modality": "text",
+        "pages": null,
+        "lines": [
+          63,
+          102
+        ],
+        "start": null,
+        "end": null,
+        "bbox": null,
+        "virtual_address": null
+      },
+      "summary": "Lists the possible API response codes including success, bad request, unauthorized, and forbidden scenarios.",
+      "lines": [
+        63,
+        102
+      ],
+      "children": []
+    }
+  ],
+  "created_at": "2026-05-14T17:20:47.592217Z"
+}

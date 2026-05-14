@@ -2,7 +2,7 @@
   "resource_id": "Payments_overview",
   "type": "text",
   "title": "Payments Overview",
-  "source_path": "docs/Payments_overview.md",
+  "source_path": "C:/Users/st/Desktop/projects/squadco-mcp/src/squadco_mcp/docs/Payments_overview.md",
   "metadata": {
     "source_hash": "cd666827ab9c0d78d5b947ab143738708d3209346064478878a1c46e7a536cf8",
     "source_size": 3229
@@ -16,7 +16,76 @@
         "modality": "text",
         "pages": null,
         "lines": [
-          32,
+          23,
+          23
+        ],
+        "start": null,
+        "end": null,
+        "bbox": null,
+        "virtual_address": null
+      },
+      "summary": "This is the main overview header for the Payments documentation section.",
+      "lines": [
+        23,
+        23
+      ],
+      "children": []
+    },
+    {
+      "id": "LearnToReceivePayments",
+      "title": "Learn to receive Payments on Squad",
+      "type": "section",
+      "location": {
+        "modality": "text",
+        "pages": null,
+        "lines": [
+          24,
+          28
+        ],
+        "start": null,
+        "end": null,
+        "bbox": null,
+        "virtual_address": null
+      },
+      "summary": "An introduction to Squad's capabilities for handling various payment flows across different platforms.",
+      "lines": [
+        24,
+        28
+      ],
+      "children": []
+    },
+    {
+      "id": "OnYourWebsite",
+      "title": "On your website",
+      "type": "section",
+      "location": {
+        "modality": "text",
+        "pages": null,
+        "lines": [
+          29,
+          30
+        ],
+        "start": null,
+        "end": null,
+        "bbox": null,
+        "virtual_address": null
+      },
+      "summary": "Mentions integration of payment systems for web-based applications.",
+      "lines": [
+        29,
+        30
+      ],
+      "children": []
+    },
+    {
+      "id": "MobileApps",
+      "title": "Mobile Apps",
+      "type": "section",
+      "location": {
+        "modality": "text",
+        "pages": null,
+        "lines": [
+          31,
           32
         ],
         "start": null,
@@ -24,104 +93,59 @@
         "bbox": null,
         "virtual_address": null
       },
-      "summary": "The main heading for the payments overview documentation.",
+      "summary": "Mentions integration of payment systems for mobile applications.",
+      "lines": [
+        31,
+        32
+      ],
       "children": []
     },
     {
-      "id": "Payments.LearnToReceive",
-      "title": "Learn to receive Payments on Squad",
-      "type": "header",
+      "id": "OnYourEcommerceStore",
+      "title": "On your e-Commerce Store",
+      "type": "section",
       "location": {
         "modality": "text",
         "pages": null,
         "lines": [
           33,
-          43
+          34
         ],
         "start": null,
         "end": null,
         "bbox": null,
         "virtual_address": null
       },
-      "summary": "This section explains how Squad facilitates various payment flows and the platforms where integration is possible.",
+      "summary": "Mentions integration of payment systems for e-commerce stores.",
+      "lines": [
+        33,
+        34
+      ],
       "children": []
     },
     {
-      "id": "Payments.LearnToReceive.OnYourWebsite",
-      "title": "On your website",
-      "type": "header",
-      "location": {
-        "modality": "text",
-        "pages": null,
-        "lines": [
-          38,
-          39
-        ],
-        "start": null,
-        "end": null,
-        "bbox": null,
-        "virtual_address": null
-      },
-      "summary": "Details the option to integrate Squad's payment system into websites.",
-      "children": []
-    },
-    {
-      "id": "Payments.LearnToReceive.MobileApps",
-      "title": "Mobile Apps",
-      "type": "header",
-      "location": {
-        "modality": "text",
-        "pages": null,
-        "lines": [
-          40,
-          41
-        ],
-        "start": null,
-        "end": null,
-        "bbox": null,
-        "virtual_address": null
-      },
-      "summary": "Details the option to integrate Squad's payment system into mobile applications.",
-      "children": []
-    },
-    {
-      "id": "Payments.LearnToReceive.OnYourECommerceStore",
-      "title": "On your e-Commerce Store",
-      "type": "header",
-      "location": {
-        "modality": "text",
-        "pages": null,
-        "lines": [
-          42,
-          43
-        ],
-        "start": null,
-        "end": null,
-        "bbox": null,
-        "virtual_address": null
-      },
-      "summary": "Details the option to integrate Squad's payment system into e-commerce platforms.",
-      "children": []
-    },
-    {
-      "id": "Payments.HelpSupportChannel",
+      "id": "HelpSupportChannel",
       "title": "Help/Support Channel",
-      "type": "header",
+      "type": "section",
       "location": {
         "modality": "text",
         "pages": null,
         "lines": [
-          44,
-          48
+          35,
+          38
         ],
         "start": null,
         "end": null,
         "bbox": null,
         "virtual_address": null
       },
-      "summary": "Provides contact information and resources for both general and integration-specific support inquiries.",
+      "summary": "Provides contact information for general support and technical integration assistance.",
+      "lines": [
+        35,
+        38
+      ],
       "children": []
     }
   ],
-  "created_at": "2026-05-14T03:36:10.402781Z"
+  "created_at": "2026-05-14T17:21:16.668042Z"
 }

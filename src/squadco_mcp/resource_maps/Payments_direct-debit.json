@@ -1,0 +1,197 @@
+{
+  "resource_id": "Payments_direct-debit",
+  "type": "text",
+  "title": "Payments Direct Debit",
+  "source_path": "C:/Users/st/Desktop/projects/squadco-mcp/src/squadco_mcp/docs/Payments_direct-debit.md",
+  "metadata": {
+    "source_hash": "392dc7e0b82976d67f49e281c07eabbb9a1589b09f5268e7e8b01d76a4de4f49",
+    "source_size": 18095
+  },
+  "nodes": [
+    {
+      "id": "DirectDebit",
+      "title": "Direct Debit",
+      "type": "header",
+      "location": {
+        "modality": "text",
+        "pages": null,
+        "lines": [
+          43,
+          44
+        ],
+        "start": null,
+        "end": null,
+        "bbox": null,
+        "virtual_address": null
+      },
+      "summary": "Overview of the Direct Debit API service allowing account debits without further approval.",
+      "lines": [
+        43,
+        44
+      ],
+      "children": []
+    },
+    {
+      "id": "DirectDebit.Flow",
+      "title": "Direct Debit Flow",
+      "type": "section",
+      "location": {
+        "modality": "text",
+        "pages": null,
+        "lines": [
+          52,
+          57
+        ],
+        "start": null,
+        "end": null,
+        "bbox": null,
+        "virtual_address": null
+      },
+      "summary": "Explanation of the mandate-based flow for debiting accounts.",
+      "lines": [
+        52,
+        57
+      ],
+      "children": []
+    },
+    {
+      "id": "DirectDebit.GetBankList",
+      "title": "Get Bank List",
+      "type": "function",
+      "location": {
+        "modality": "text",
+        "pages": null,
+        "lines": [
+          58,
+          62
+        ],
+        "start": null,
+        "end": null,
+        "bbox": null,
+        "virtual_address": null
+      },
+      "summary": "Endpoint to retrieve a list of banks available for the Direct Debit service.",
+      "lines": [
+        58,
+        62
+      ],
+      "children": []
+    },
+    {
+      "id": "DirectDebit.CreateMandate",
+      "title": "Create Mandate",
+      "type": "function",
+      "location": {
+        "modality": "text",
+        "pages": null,
+        "lines": [
+          108,
+          110
+        ],
+        "start": null,
+        "end": null,
+        "bbox": null,
+        "virtual_address": null
+      },
+      "summary": "Endpoint for creating a new mandate for an account.",
+      "lines": [
+        108,
+        110
+      ],
+      "children": []
+    },
+    {
+      "id": "DirectDebit.DebitMandate",
+      "title": "Debit Mandate",
+      "type": "function",
+      "location": {
+        "modality": "text",
+        "pages": null,
+        "lines": [
+          238,
+          240
+        ],
+        "start": null,
+        "end": null,
+        "bbox": null,
+        "virtual_address": null
+      },
+      "summary": "Endpoint to perform a debit transaction on an existing mandate.",
+      "lines": [
+        238,
+        240
+      ],
+      "children": []
+    },
+    {
+      "id": "DirectDebit.CancelMandate",
+      "title": "Cancel Mandate",
+      "type": "function",
+      "location": {
+        "modality": "text",
+        "pages": null,
+        "lines": [
+          323,
+          325
+        ],
+        "start": null,
+        "end": null,
+        "bbox": null,
+        "virtual_address": null
+      },
+      "summary": "Endpoint to cancel an existing account mandate.",
+      "lines": [
+        323,
+        325
+      ],
+      "children": []
+    },
+    {
+      "id": "DirectDebit.GetMandateByRef",
+      "title": "Get Mandate By Ref",
+      "type": "function",
+      "location": {
+        "modality": "text",
+        "pages": null,
+        "lines": [
+          374,
+          376
+        ],
+        "start": null,
+        "end": null,
+        "bbox": null,
+        "virtual_address": null
+      },
+      "summary": "Endpoint to retrieve details of a specific mandate using its reference.",
+      "lines": [
+        374,
+        376
+      ],
+      "children": []
+    },
+    {
+      "id": "DirectDebit.GoLive",
+      "title": "Go Live",
+      "type": "section",
+      "location": {
+        "modality": "text",
+        "pages": null,
+        "lines": [
+          426,
+          431
+        ],
+        "start": null,
+        "end": null,
+        "bbox": null,
+        "virtual_address": null
+      },
+      "summary": "Instructions for migrating from the sandbox environment to production.",
+      "lines": [
+        426,
+        431
+      ],
+      "children": []
+    }
+  ],
+  "created_at": "2026-05-14T17:21:02.332841Z"
+}

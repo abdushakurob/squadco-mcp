@@ -1,0 +1,174 @@
+{
+  "resource_id": "webhook-direct-url_webhook-and-direct-url",
+  "type": "text",
+  "title": "Webhook Direct Url Webhook And Direct Url",
+  "source_path": "C:/Users/st/Desktop/projects/squadco-mcp/src/squadco_mcp/docs/webhook-direct-url_webhook-and-direct-url.md",
+  "metadata": {
+    "source_hash": "f722a22c4bb4727a82b271c4c22d27c5093f0f06447e0f7b262ba9f92557923d",
+    "source_size": 9046
+  },
+  "nodes": [
+    {
+      "id": "WebhookRedirectURL",
+      "title": "Webhook & Redirect URL",
+      "type": "header",
+      "location": {
+        "modality": "text",
+        "pages": null,
+        "lines": [
+          23,
+          23
+        ],
+        "start": null,
+        "end": null,
+        "bbox": null,
+        "virtual_address": null
+      },
+      "summary": "Introduction to using Squad webhooks for real-time transaction notifications.",
+      "lines": [
+        23,
+        23
+      ],
+      "children": []
+    },
+    {
+      "id": "WebhookValidation",
+      "title": "Webhook Validation",
+      "type": "section",
+      "location": {
+        "modality": "text",
+        "pages": null,
+        "lines": [
+          46,
+          54
+        ],
+        "start": null,
+        "end": null,
+        "bbox": null,
+        "virtual_address": null
+      },
+      "summary": "Instructions for configuring webhook notifications and handling encrypted payloads.",
+      "lines": [
+        46,
+        54
+      ],
+      "children": []
+    },
+    {
+      "id": "SampleCard",
+      "title": "Sample Webhook for Card Transactions",
+      "type": "section",
+      "location": {
+        "modality": "text",
+        "pages": null,
+        "lines": [
+          56,
+          85
+        ],
+        "start": null,
+        "end": null,
+        "bbox": null,
+        "virtual_address": null
+      },
+      "summary": "A JSON payload example for successful card transactions.",
+      "lines": [
+        56,
+        85
+      ],
+      "children": []
+    },
+    {
+      "id": "SampleTransfer",
+      "title": "Sample Webhook for Transfers",
+      "type": "section",
+      "location": {
+        "modality": "text",
+        "pages": null,
+        "lines": [
+          87,
+          107
+        ],
+        "start": null,
+        "end": null,
+        "bbox": null,
+        "virtual_address": null
+      },
+      "summary": "A JSON payload example for successful bank transfers.",
+      "lines": [
+        87,
+        107
+      ],
+      "children": []
+    },
+    {
+      "id": "SampleBank",
+      "title": "Sample Webhook for Bank",
+      "type": "section",
+      "location": {
+        "modality": "text",
+        "pages": null,
+        "lines": [
+          109,
+          129
+        ],
+        "start": null,
+        "end": null,
+        "bbox": null,
+        "virtual_address": null
+      },
+      "summary": "A JSON payload example for bank-based payments.",
+      "lines": [
+        109,
+        129
+      ],
+      "children": []
+    },
+    {
+      "id": "SampleUSSD",
+      "title": "SAMPLE WEBHOOK FOR USSD PAYMENT OPTION",
+      "type": "section",
+      "location": {
+        "modality": "text",
+        "pages": null,
+        "lines": [
+          131,
+          153
+        ],
+        "start": null,
+        "end": null,
+        "bbox": null,
+        "virtual_address": null
+      },
+      "summary": "A JSON payload example for USSD-based payment notifications.",
+      "lines": [
+        131,
+        153
+      ],
+      "children": []
+    },
+    {
+      "id": "SampleMerchantUSSD",
+      "title": "Sample Webhook for Merchant USSD",
+      "type": "section",
+      "location": {
+        "modality": "text",
+        "pages": null,
+        "lines": [
+          155,
+          180
+        ],
+        "start": null,
+        "end": null,
+        "bbox": null,
+        "virtual_address": null
+      },
+      "summary": "A JSON payload example for USSD payments initiated via merchant dashboards.",
+      "lines": [
+        155,
+        180
+      ],
+      "children": []
+    }
+  ],
+  "created_at": "2026-05-14T17:23:20.166023Z"
+}

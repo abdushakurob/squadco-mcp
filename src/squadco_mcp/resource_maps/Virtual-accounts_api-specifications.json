@@ -1,0 +1,289 @@
+{
+  "resource_id": "Virtual-accounts_api-specifications",
+  "type": "text",
+  "title": "Virtual Accounts Api Specifications",
+  "source_path": "C:/Users/st/Desktop/projects/squadco-mcp/src/squadco_mcp/docs/Virtual-accounts_api-specifications.md",
+  "metadata": {
+    "source_hash": "12923c3b94a5d9a5ba85352bd2078e09e7d48c7c80185a96cee3eb602cc5d489",
+    "source_size": 64655
+  },
+  "nodes": [
+    {
+      "id": "API_Specifications",
+      "title": "API Specifications",
+      "type": "header",
+      "location": {
+        "modality": "text",
+        "pages": null,
+        "lines": [
+          23,
+          23
+        ],
+        "start": null,
+        "end": null,
+        "bbox": null,
+        "virtual_address": null
+      },
+      "summary": "Overview of the Squad Virtual Accounts API documentation.",
+      "lines": [
+        23,
+        23
+      ],
+      "children": []
+    },
+    {
+      "id": "Specification_For_Virtual_Accounts",
+      "title": "Specification For Virtual Accounts",
+      "type": "section",
+      "location": {
+        "modality": "text",
+        "pages": null,
+        "lines": [
+          24,
+          31
+        ],
+        "start": null,
+        "end": null,
+        "bbox": null,
+        "virtual_address": null
+      },
+      "summary": "Describes the requirements for creating virtual accounts, specifically noting that settlement accounts must be GTBank accounts.",
+      "lines": [
+        24,
+        31
+      ],
+      "children": []
+    },
+    {
+      "id": "Customer_Model",
+      "title": "Customer Model",
+      "type": "section",
+      "location": {
+        "modality": "text",
+        "pages": null,
+        "lines": [
+          32,
+          42
+        ],
+        "start": null,
+        "end": null,
+        "bbox": null,
+        "virtual_address": null
+      },
+      "summary": "Explains the B2C model for creating virtual accounts for individuals with mandatory BVN validation.",
+      "lines": [
+        32,
+        42
+      ],
+      "children": []
+    },
+    {
+      "id": "Creating_Virtual_Accounts_for_Customers",
+      "title": "Creating Virtual Accounts for Customers",
+      "type": "method",
+      "location": {
+        "modality": "text",
+        "pages": null,
+        "lines": [
+          43,
+          73
+        ],
+        "start": null,
+        "end": null,
+        "bbox": null,
+        "virtual_address": null
+      },
+      "summary": "Details the required fields and parameters for the POST /virtual-account endpoint for individuals.",
+      "lines": [
+        43,
+        73
+      ],
+      "children": []
+    },
+    {
+      "id": "Business_Model",
+      "title": "Business Model",
+      "type": "section",
+      "location": {
+        "modality": "text",
+        "pages": null,
+        "lines": [
+          136,
+          143
+        ],
+        "start": null,
+        "end": null,
+        "bbox": null,
+        "virtual_address": null
+      },
+      "summary": "Describes the B2B model for creating virtual accounts for business customers, requiring prior profiling.",
+      "lines": [
+        136,
+        143
+      ],
+      "children": []
+    },
+    {
+      "id": "Creating_Virtual_Account_for_businesses",
+      "title": "Creating Virtual Account for businesses",
+      "type": "method",
+      "location": {
+        "modality": "text",
+        "pages": null,
+        "lines": [
+          164,
+          184
+        ],
+        "start": null,
+        "end": null,
+        "bbox": null,
+        "virtual_address": null
+      },
+      "summary": "Lists the parameters and endpoints for the POST /virtual-account/business API.",
+      "lines": [
+        164,
+        184
+      ],
+      "children": []
+    },
+    {
+      "id": "Transaction_Notification_Service",
+      "title": "Transaction Notification Service",
+      "type": "section",
+      "location": {
+        "modality": "text",
+        "pages": null,
+        "lines": [
+          236,
+          245
+        ],
+        "start": null,
+        "end": null,
+        "bbox": null,
+        "virtual_address": null
+      },
+      "summary": "Instructions for setting up webhooks to receive transaction notifications.",
+      "lines": [
+        236,
+        245
+      ],
+      "children": []
+    },
+    {
+      "id": "Webhook_Validation_V1",
+      "title": "Webhook Validation --version 1",
+      "type": "section",
+      "location": {
+        "modality": "text",
+        "pages": null,
+        "lines": [
+          267,
+          439
+        ],
+        "start": null,
+        "end": null,
+        "bbox": null,
+        "virtual_address": null
+      },
+      "summary": "Covers methods for securing and validating webhooks, including hash comparison and decryption.",
+      "lines": [
+        267,
+        439
+      ],
+      "children": []
+    },
+    {
+      "id": "Webhook_Validation_V2",
+      "title": "Webhook Validation --version 2",
+      "type": "section",
+      "location": {
+        "modality": "text",
+        "pages": null,
+        "lines": [
+          440,
+          455
+        ],
+        "start": null,
+        "end": null,
+        "bbox": null,
+        "virtual_address": null
+      },
+      "summary": "Describes the V2 webhook validation method involving hashing of six specific pipe-separated fields.",
+      "lines": [
+        440,
+        455
+      ],
+      "children": []
+    },
+    {
+      "id": "Webhook_Validation_V3",
+      "title": "Webhook Validation --version 3",
+      "type": "section",
+      "location": {
+        "modality": "text",
+        "pages": null,
+        "lines": [
+          456,
+          477
+        ],
+        "start": null,
+        "end": null,
+        "bbox": null,
+        "virtual_address": null
+      },
+      "summary": "Explains the V3 webhook validation upgrade, which introduces new transaction reference formats and refined hashing methods.",
+      "lines": [
+        456,
+        477
+      ],
+      "children": []
+    },
+    {
+      "id": "Webhook_Error_Log",
+      "title": "Webhook Error Log",
+      "type": "section",
+      "location": {
+        "modality": "text",
+        "pages": null,
+        "lines": [
+          587,
+          594
+        ],
+        "start": null,
+        "end": null,
+        "bbox": null,
+        "virtual_address": null
+      },
+      "summary": "API endpoints for retrieving and managing missed webhook notification records.",
+      "lines": [
+        587,
+        594
+      ],
+      "children": []
+    },
+    {
+      "id": "Going_Live",
+      "title": "Going Live",
+      "type": "section",
+      "location": {
+        "modality": "text",
+        "pages": null,
+        "lines": [
+          912,
+          919
+        ],
+        "start": null,
+        "end": null,
+        "bbox": null,
+        "virtual_address": null
+      },
+      "summary": "Step-by-step checklist to migrate from the sandbox environment to production.",
+      "lines": [
+        912,
+        919
+      ],
+      "children": []
+    }
+  ],
+  "created_at": "2026-05-14T17:22:52.107407Z"
+}

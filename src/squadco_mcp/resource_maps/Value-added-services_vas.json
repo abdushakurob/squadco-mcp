@@ -1,0 +1,174 @@
+{
+  "resource_id": "Value-added-services_vas",
+  "type": "text",
+  "title": "Value Added Services Vas",
+  "source_path": "C:/Users/st/Desktop/projects/squadco-mcp/src/squadco_mcp/docs/Value-added-services_vas.md",
+  "metadata": {
+    "source_hash": "8b94428f31dda4cf553424ca321d486a9305026b1dec8103b41e52ace44ee7ee",
+    "source_size": 15349
+  },
+  "nodes": [
+    {
+      "id": "AirtimeAndData",
+      "title": "Airtime and Data",
+      "type": "header",
+      "location": {
+        "modality": "text",
+        "pages": null,
+        "lines": [
+          31,
+          32
+        ],
+        "start": null,
+        "end": null,
+        "bbox": null,
+        "virtual_address": null
+      },
+      "summary": "Overview of API suites for vending airtime and data through Squad.",
+      "lines": [
+        31,
+        32
+      ],
+      "children": []
+    },
+    {
+      "id": "APIKeys",
+      "title": "API KEYS (Test Environment)",
+      "type": "section",
+      "location": {
+        "modality": "text",
+        "pages": null,
+        "lines": [
+          33,
+          44
+        ],
+        "start": null,
+        "end": null,
+        "bbox": null,
+        "virtual_address": null
+      },
+      "summary": "Instructions for obtaining authentication keys and base URLs for the sandbox environment.",
+      "lines": [
+        33,
+        44
+      ],
+      "children": []
+    },
+    {
+      "id": "VendAirtime",
+      "title": "Vend Airtime",
+      "type": "function",
+      "location": {
+        "modality": "text",
+        "pages": null,
+        "lines": [
+          45,
+          102
+        ],
+        "start": null,
+        "end": null,
+        "bbox": null,
+        "virtual_address": null
+      },
+      "summary": "API endpoint to purchase airtime with specified phone number and amount.",
+      "lines": [
+        45,
+        102
+      ],
+      "children": []
+    },
+    {
+      "id": "VendDataBundles",
+      "title": "Vend Data Bundles",
+      "type": "function",
+      "location": {
+        "modality": "text",
+        "pages": null,
+        "lines": [
+          103,
+          161
+        ],
+        "start": null,
+        "end": null,
+        "bbox": null,
+        "virtual_address": null
+      },
+      "summary": "API endpoint to purchase data bundles using phone number and plan code.",
+      "lines": [
+        103,
+        161
+      ],
+      "children": []
+    },
+    {
+      "id": "GetDataBundles",
+      "title": "Get Data Bundles",
+      "type": "function",
+      "location": {
+        "modality": "text",
+        "pages": null,
+        "lines": [
+          162,
+          230
+        ],
+        "start": null,
+        "end": null,
+        "bbox": null,
+        "virtual_address": null
+      },
+      "summary": "API endpoint to retrieve a list of available data bundles for specific telecommunications providers.",
+      "lines": [
+        162,
+        230
+      ],
+      "children": []
+    },
+    {
+      "id": "RetrieveTransactions",
+      "title": "Retrieve Airtime and Data Transactions",
+      "type": "function",
+      "location": {
+        "modality": "text",
+        "pages": null,
+        "lines": [
+          231,
+          310
+        ],
+        "start": null,
+        "end": null,
+        "bbox": null,
+        "virtual_address": null
+      },
+      "summary": "API endpoint to query and retrieve historical airtime and data transactions.",
+      "lines": [
+        231,
+        310
+      ],
+      "children": []
+    },
+    {
+      "id": "GoingLive",
+      "title": "Going Live",
+      "type": "section",
+      "location": {
+        "modality": "text",
+        "pages": null,
+        "lines": [
+          311,
+          318
+        ],
+        "start": null,
+        "end": null,
+        "bbox": null,
+        "virtual_address": null
+      },
+      "summary": "Steps required to transition from the sandbox environment to production.",
+      "lines": [
+        311,
+        318
+      ],
+      "children": []
+    }
+  ],
+  "created_at": "2026-05-14T17:22:45.142578Z"
+}

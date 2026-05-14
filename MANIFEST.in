@@ -1,4 +1,2 @@
-recursive-include src/squadco_mcp/.resource_maps *.json
+recursive-include src/squadco_mcp/resource_maps *.json
 recursive-include src/squadco_mcp/docs *.md
-include README.md
-include pyproject.toml

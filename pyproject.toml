@@ -1,12 +1,12 @@
 [project]
 name = "squadco-mcp"
-version = "0.1.5"
-description = "SquadCo API documentation as an MCP server"
+version = "0.3.1"
+description = "SquadCo API documentation as an MCP server (CiteKit 0.2.1 Native)"
 readme = "README.md"
 requires-python = ">=3.10"
 dependencies = [
     "mcp[cli]>=0.1.0",
-    "citekit>=0.1.0",
+    "citekit>=0.2.1",
 ]
 
 [project.scripts]
@@ -22,4 +22,4 @@ packages = ["squadco_mcp"]
 include-package-data = true
 
 [tool.setuptools.package-data]
-"squadco_mcp" = [".resource_maps/*.json", "docs/*.md"]
+"squadco_mcp" = ["resource_maps/*.json", "docs/*.md"]
