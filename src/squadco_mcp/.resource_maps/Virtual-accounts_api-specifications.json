@@ -1,0 +1,1381 @@
+{
+  "resource_id": "Virtual-accounts_api-specifications",
+  "type": "text",
+  "title": "Virtual Accounts Api Specifications",
+  "source_path": "/mnt/c/Users/st/Desktop/projects/squadco-mcp/docs/Virtual-accounts_api-specifications.md",
+  "metadata": {
+    "source_hash": "12923c3b94a5d9a5ba85352bd2078e09e7d48c7c80185a96cee3eb602cc5d489",
+    "source_size": 64655
+  },
+  "nodes": [
+    {
+      "id": "API.Specifications",
+      "title": "API Specifications",
+      "type": "header",
+      "location": {
+        "modality": "text",
+        "pages": null,
+        "lines": [
+          25,
+          25
+        ],
+        "start": null,
+        "end": null,
+        "bbox": null,
+        "virtual_address": null
+      },
+      "summary": "This document outlines the API specifications for Squad Virtual Accounts.",
+      "children": []
+    },
+    {
+      "id": "API.Specifications.VirtualAccounts",
+      "title": "Specification For Virtual Accounts",
+      "type": "header",
+      "location": {
+        "modality": "text",
+        "pages": null,
+        "lines": [
+          26,
+          34
+        ],
+        "start": null,
+        "end": null,
+        "bbox": null,
+        "virtual_address": null
+      },
+      "summary": "The Squad Virtual Accounts API allows for the creation of customized fly-through accounts and specifies requirements like GTBank settlement accounts and prefix provision.",
+      "children": []
+    },
+    {
+      "id": "API.Specifications.CustomerModel",
+      "title": "Customer Model",
+      "type": "header",
+      "location": {
+        "modality": "text",
+        "pages": null,
+        "lines": [
+          35,
+          39
+        ],
+        "start": null,
+        "end": null,
+        "bbox": null,
+        "virtual_address": null
+      },
+      "summary": "This section details the Business to Customer (B2C) model for creating virtual accounts for individuals, emphasizing BVN validation.",
+      "children": []
+    },
+    {
+      "id": "API.Specifications.CustomerModel.Create",
+      "title": "Creating Virtual Accounts for Customers",
+      "type": "section",
+      "location": {
+        "modality": "text",
+        "pages": null,
+        "lines": [
+          41,
+          41
+        ],
+        "start": null,
+        "end": null,
+        "bbox": null,
+        "virtual_address": null
+      },
+      "summary": "This outlines the endpoint and process for creating virtual accounts for individual customers.",
+      "children": []
+    },
+    {
+      "id": "API.Specifications.CustomerModel.Create.Parameters",
+      "title": "Parameters for Creating Customer Virtual Accounts",
+      "type": "section",
+      "location": {
+        "modality": "text",
+        "pages": null,
+        "lines": [
+          42,
+          42
+        ],
+        "start": null,
+        "end": null,
+        "bbox": null,
+        "virtual_address": null
+      },
+      "summary": "This section lists the parameters required for creating virtual accounts for customers.",
+      "children": []
+    },
+    {
+      "id": "API.Specifications.CustomerModel.Create.Parameters.Body",
+      "title": "Request Body for Customer Virtual Accounts",
+      "type": "section",
+      "location": {
+        "modality": "text",
+        "pages": null,
+        "lines": [
+          43,
+          58
+        ],
+        "start": null,
+        "end": null,
+        "bbox": null,
+        "virtual_address": null
+      },
+      "summary": "This details the mandatory and optional fields for the request body when creating a customer virtual account.",
+      "children": []
+    },
+    {
+      "id": "API.Specifications.CustomerModel.Create.SampleRequest",
+      "title": "Sample Request for Customer Virtual Account Creation",
+      "type": "section",
+      "location": {
+        "modality": "text",
+        "pages": null,
+        "lines": [
+          59,
+          68
+        ],
+        "start": null,
+        "end": null,
+        "bbox": null,
+        "virtual_address": null
+      },
+      "summary": "This provides an example JSON payload for creating a virtual account for a customer.",
+      "children": []
+    },
+    {
+      "id": "API.Specifications.CustomerModel.Create.Responses",
+      "title": "Responses for Customer Virtual Account Creation",
+      "type": "section",
+      "location": {
+        "modality": "text",
+        "pages": null,
+        "lines": [
+          69,
+          104
+        ],
+        "start": null,
+        "end": null,
+        "bbox": null,
+        "virtual_address": null
+      },
+      "summary": "This section outlines the possible API responses, including success and various error types, for creating a customer virtual account.",
+      "children": []
+    },
+    {
+      "id": "API.Specifications.BusinessModel",
+      "title": "Business Model",
+      "type": "header",
+      "location": {
+        "modality": "text",
+        "pages": null,
+        "lines": [
+          105,
+          110
+        ],
+        "start": null,
+        "end": null,
+        "bbox": null,
+        "virtual_address": null
+      },
+      "summary": "This section describes the Business to Business (B2B) model for creating virtual accounts for business customers, requiring prior profiling.",
+      "children": []
+    },
+    {
+      "id": "API.Specifications.BusinessModel.SampleRequest",
+      "title": "Sample Request for Business Virtual Account Creation",
+      "type": "section",
+      "location": {
+        "modality": "text",
+        "pages": null,
+        "lines": [
+          113,
+          119
+        ],
+        "start": null,
+        "end": null,
+        "bbox": null,
+        "virtual_address": null
+      },
+      "summary": "This provides an example JSON payload for creating a virtual account for a business.",
+      "children": []
+    },
+    {
+      "id": "API.Specifications.BusinessModel.Create",
+      "title": "Creating Virtual Account for businesses",
+      "type": "section",
+      "location": {
+        "modality": "text",
+        "pages": null,
+        "lines": [
+          120,
+          120
+        ],
+        "start": null,
+        "end": null,
+        "bbox": null,
+        "virtual_address": null
+      },
+      "summary": "This outlines the endpoint and process for creating virtual accounts specifically for business clients.",
+      "children": []
+    },
+    {
+      "id": "API.Specifications.BusinessModel.Create.Parameters",
+      "title": "Parameters for Creating Business Virtual Accounts",
+      "type": "section",
+      "location": {
+        "modality": "text",
+        "pages": null,
+        "lines": [
+          121,
+          121
+        ],
+        "start": null,
+        "end": null,
+        "bbox": null,
+        "virtual_address": null
+      },
+      "summary": "This section lists the parameters required for creating virtual accounts for businesses.",
+      "children": []
+    },
+    {
+      "id": "API.Specifications.BusinessModel.Create.Parameters.Body",
+      "title": "Request Body for Business Virtual Accounts",
+      "type": "section",
+      "location": {
+        "modality": "text",
+        "pages": null,
+        "lines": [
+          122,
+          131
+        ],
+        "start": null,
+        "end": null,
+        "bbox": null,
+        "virtual_address": null
+      },
+      "summary": "This details the mandatory and optional fields for the request body when creating a business virtual account.",
+      "children": []
+    },
+    {
+      "id": "API.Specifications.BusinessModel.Create.Responses",
+      "title": "Responses for Business Virtual Account Creation",
+      "type": "section",
+      "location": {
+        "modality": "text",
+        "pages": null,
+        "lines": [
+          132,
+          174
+        ],
+        "start": null,
+        "end": null,
+        "bbox": null,
+        "virtual_address": null
+      },
+      "summary": "This section outlines the possible API responses, including success and various error types, for creating a business virtual account.",
+      "children": []
+    },
+    {
+      "id": "API.Specifications.TransactionNotificationService",
+      "title": "Transaction Notification Service",
+      "type": "header",
+      "location": {
+        "modality": "text",
+        "pages": null,
+        "lines": [
+          175,
+          179
+        ],
+        "start": null,
+        "end": null,
+        "bbox": null,
+        "virtual_address": null
+      },
+      "summary": "This service enables merchants to receive notifications about payments by setting up a POST Webhook endpoint in their Squad Dashboard.",
+      "children": []
+    },
+    {
+      "id": "API.Specifications.TransactionNotificationService.ExpectedResponse",
+      "title": "Expected Webhook Response",
+      "type": "header",
+      "location": {
+        "modality": "text",
+        "pages": null,
+        "lines": [
+          182,
+          199
+        ],
+        "start": null,
+        "end": null,
+        "bbox": null,
+        "virtual_address": null
+      },
+      "summary": "This outlines the expected HTTP status codes (200, 400, 500) and sample JSON payloads for webhook responses indicating successful receipt or failure.",
+      "children": []
+    },
+    {
+      "id": "API.Specifications.WebhookValidation.V1",
+      "title": "Webhook Validation --version 1",
+      "type": "header",
+      "location": {
+        "modality": "text",
+        "pages": null,
+        "lines": [
+          200,
+          200
+        ],
+        "start": null,
+        "end": null,
+        "bbox": null,
+        "virtual_address": null
+      },
+      "summary": "This section describes the first version of webhook validation methods, including hash comparison and decryption of the encrypted body.",
+      "children": []
+    },
+    {
+      "id": "API.Specifications.WebhookValidation.V1.Method1HashComparison",
+      "title": "Method 1 (Hash Comparison)",
+      "type": "header",
+      "location": {
+        "modality": "text",
+        "pages": null,
+        "lines": [
+          201,
+          206
+        ],
+        "start": null,
+        "end": null,
+        "bbox": null,
+        "virtual_address": null
+      },
+      "summary": "This method validates webhooks by comparing an HMAC-SHA512 hash generated from the notification body with the 'x-squad-signature' in the request header.",
+      "children": []
+    },
+    {
+      "id": "API.Specifications.WebhookValidation.V1.Method1HashComparison.SampleImplementations",
+      "title": "Sample Implementations",
+      "type": "section",
+      "location": {
+        "modality": "text",
+        "pages": null,
+        "lines": [
+          207,
+          207
+        ],
+        "start": null,
+        "end": null,
+        "bbox": null,
+        "virtual_address": null
+      },
+      "summary": "This section lists programming languages for which sample implementations of webhook hash comparison are provided.",
+      "children": []
+    },
+    {
+      "id": "API.Specifications.WebhookValidation.V1.Method2Decryption",
+      "title": "Method 2 (Decryption of Encrypted Body)",
+      "type": "header",
+      "location": {
+        "modality": "text",
+        "pages": null,
+        "lines": [
+          239,
+          244
+        ],
+        "start": null,
+        "end": null,
+        "bbox": null,
+        "virtual_address": null
+      },
+      "summary": "This method validates webhooks by decrypting the 'encrypted_body' using the merchant's Public and Secret Keys and comparing it to the original payload.",
+      "children": []
+    },
+    {
+      "id": "API.Specifications.WebhookValidation.V1.SampleWebhookNotification",
+      "title": "Sample Webhook Notification",
+      "type": "header",
+      "location": {
+        "modality": "text",
+        "pages": null,
+        "lines": [
+          245,
+          259
+        ],
+        "start": null,
+        "end": null,
+        "bbox": null,
+        "virtual_address": null
+      },
+      "summary": "This provides a sample JSON structure of a webhook notification, including transaction details and an encrypted body.",
+      "children": []
+    },
+    {
+      "id": "API.Specifications.WebhookValidation.V2",
+      "title": "Webhook Validation --version 2",
+      "type": "header",
+      "location": {
+        "modality": "text",
+        "pages": null,
+        "lines": [
+          260,
+          267
+        ],
+        "start": null,
+        "end": null,
+        "bbox": null,
+        "virtual_address": null
+      },
+      "summary": "Webhook Version 2 (V2) introduces a version number field and a new hash validation method focusing on six specific fields separated by a pipe character.",
+      "children": []
+    },
+    {
+      "id": "API.Specifications.WebhookValidation.V3",
+      "title": "Webhook Validation --version 3",
+      "type": "header",
+      "location": {
+        "modality": "text",
+        "pages": null,
+        "lines": [
+          270,
+          283
+        ],
+        "start": null,
+        "end": null,
+        "bbox": null,
+        "virtual_address": null
+      },
+      "summary": "Webhook Version 3 (V3) updates the transaction reference format, adds a version number, and maintains hash validation on six specific pipe-separated fields.",
+      "children": []
+    },
+    {
+      "id": "API.Specifications.WebhookValidation.V3.SampleSignatureString",
+      "title": "Sample signature string",
+      "type": "header",
+      "location": {
+        "modality": "text",
+        "pages": null,
+        "lines": [
+          285,
+          290
+        ],
+        "start": null,
+        "end": null,
+        "bbox": null,
+        "virtual_address": null
+      },
+      "summary": "This provides an example of how the signature string is constructed by concatenating specific payload fields with pipe separators.",
+      "children": []
+    },
+    {
+      "id": "API.Specifications.WebhookValidation.V2V3.SampleNotifications",
+      "title": "Sample v2 and v3 notifications",
+      "type": "section",
+      "location": {
+        "modality": "text",
+        "pages": null,
+        "lines": [
+          296,
+          327
+        ],
+        "start": null,
+        "end": null,
+        "bbox": null,
+        "virtual_address": null
+      },
+      "summary": "This section provides sample JSON payloads for both Webhook Version 2 and Version 3 notifications, illustrating their structure and new fields.",
+      "children": []
+    },
+    {
+      "id": "API.Specifications.WebhookValidation.V3.SampleImplementations.CSharp",
+      "title": "C# Sample Implementation for Webhook Validation V3",
+      "type": "section",
+      "location": {
+        "modality": "text",
+        "pages": null,
+        "lines": [
+          328,
+          381
+        ],
+        "start": null,
+        "end": null,
+        "bbox": null,
+        "virtual_address": null
+      },
+      "summary": "This C# code snippet demonstrates how to generate and compare an HMAC-SHA512 hash for Webhook Validation Version 3.",
+      "children": []
+    },
+    {
+      "id": "API.Specifications.WebhookValidation.V3.SampleImplementations.PHP",
+      "title": "PHP Sample Implementation for Webhook Validation V3",
+      "type": "section",
+      "location": {
+        "modality": "text",
+        "pages": null,
+        "lines": [
+          383,
+          430
+        ],
+        "start": null,
+        "end": null,
+        "bbox": null,
+        "virtual_address": null
+      },
+      "summary": "This PHP code snippet demonstrates how to generate and compare an HMAC-SHA512 hash for Webhook Validation Version 3.",
+      "children": []
+    },
+    {
+      "id": "API.Specifications.WebhookValidation.V3.SampleImplementations.Javascript",
+      "title": "Javascript Sample Implementation for Webhook Validation V3",
+      "type": "section",
+      "location": {
+        "modality": "text",
+        "pages": null,
+        "lines": [
+          432,
+          477
+        ],
+        "start": null,
+        "end": null,
+        "bbox": null,
+        "virtual_address": null
+      },
+      "summary": "This Javascript code snippet demonstrates how to generate and compare an HMAC-SHA512 hash for Webhook Validation Version 3.",
+      "children": []
+    },
+    {
+      "id": "API.Specifications.WebhookErrorLog",
+      "title": "Webhook Error Log",
+      "type": "header",
+      "location": {
+        "modality": "text",
+        "pages": null,
+        "lines": [
+          479,
+          489
+        ],
+        "start": null,
+        "end": null,
+        "bbox": null,
+        "virtual_address": null
+      },
+      "summary": "This API allows merchants to retrieve and manage missed webhook notifications to update their records and prevent duplicate transactions.",
+      "children": []
+    },
+    {
+      "id": "API.Specifications.WebhookErrorLog.Get",
+      "title": "Get Webhook Error Log",
+      "type": "header",
+      "location": {
+        "modality": "text",
+        "pages": null,
+        "lines": [
+          491,
+          492
+        ],
+        "start": null,
+        "end": null,
+        "bbox": null,
+        "virtual_address": null
+      },
+      "summary": "This API endpoint allows fetching an array of missed webhook notifications from the error log.",
+      "children": []
+    },
+    {
+      "id": "API.Specifications.WebhookErrorLog.Get.Description",
+      "title": "Description for Get Webhook Error Log",
+      "type": "section",
+      "location": {
+        "modality": "text",
+        "pages": null,
+        "lines": [
+          493,
+          493
+        ],
+        "start": null,
+        "end": null,
+        "bbox": null,
+        "virtual_address": null
+      },
+      "summary": "This API returns an array of the top 100 missed webhook transactions, enabling merchants to update their records.",
+      "children": []
+    },
+    {
+      "id": "API.Specifications.WebhookErrorLog.Get.Parameters",
+      "title": "Parameters for Get Webhook Error Log",
+      "type": "section",
+      "location": {
+        "modality": "text",
+        "pages": null,
+        "lines": [
+          494,
+          494
+        ],
+        "start": null,
+        "end": null,
+        "bbox": null,
+        "virtual_address": null
+      },
+      "summary": "This section lists the query parameters required for retrieving webhook error logs.",
+      "children": []
+    },
+    {
+      "id": "API.Specifications.WebhookErrorLog.Get.Parameters.Query",
+      "title": "Query Parameters for Get Webhook Error Log",
+      "type": "section",
+      "location": {
+        "modality": "text",
+        "pages": null,
+        "lines": [
+          495,
+          497
+        ],
+        "start": null,
+        "end": null,
+        "bbox": null,
+        "virtual_address": null
+      },
+      "summary": "This details the 'page' and 'perPage' query fields for pagination when retrieving webhook error logs.",
+      "children": []
+    },
+    {
+      "id": "API.Specifications.WebhookErrorLog.Get.Responses",
+      "title": "Responses for Get Webhook Error Log",
+      "type": "section",
+      "location": {
+        "modality": "text",
+        "pages": null,
+        "lines": [
+          498,
+          539
+        ],
+        "start": null,
+        "end": null,
+        "bbox": null,
+        "virtual_address": null
+      },
+      "summary": "This section outlines the possible API responses, including success and unauthorized errors, for retrieving webhook error logs.",
+      "children": []
+    },
+    {
+      "id": "API.Specifications.WebhookErrorLog.Delete",
+      "title": "Delete Webhook Error Log",
+      "type": "header",
+      "location": {
+        "modality": "text",
+        "pages": null,
+        "lines": [
+          540,
+          541
+        ],
+        "start": null,
+        "end": null,
+        "bbox": null,
+        "virtual_address": null
+      },
+      "summary": "This API endpoint allows deleting a processed transaction from the webhook error log.",
+      "children": []
+    },
+    {
+      "id": "API.Specifications.WebhookErrorLog.Delete.Description",
+      "title": "Description for Delete Webhook Error Log",
+      "type": "section",
+      "location": {
+        "modality": "text",
+        "pages": null,
+        "lines": [
+          542,
+          543
+        ],
+        "start": null,
+        "end": null,
+        "bbox": null,
+        "virtual_address": null
+      },
+      "summary": "This API enables you to remove a processed transaction from the error log, preventing it from being returned in subsequent queries.",
+      "children": []
+    },
+    {
+      "id": "API.Specifications.WebhookErrorLog.Delete.Parameters",
+      "title": "Parameters for Delete Webhook Error Log",
+      "type": "section",
+      "location": {
+        "modality": "text",
+        "pages": null,
+        "lines": [
+          544,
+          544
+        ],
+        "start": null,
+        "end": null,
+        "bbox": null,
+        "virtual_address": null
+      },
+      "summary": "This section lists the path parameters required for deleting webhook error logs.",
+      "children": []
+    },
+    {
+      "id": "API.Specifications.WebhookErrorLog.Delete.Parameters.Path",
+      "title": "Path Parameters for Delete Webhook Error Log",
+      "type": "section",
+      "location": {
+        "modality": "text",
+        "pages": null,
+        "lines": [
+          545,
+          547
+        ],
+        "start": null,
+        "end": null,
+        "bbox": null,
+        "virtual_address": null
+      },
+      "summary": "This details the 'transaction_ref' path field used to identify the specific transaction to delete from the webhook error log.",
+      "children": []
+    },
+    {
+      "id": "API.Specifications.WebhookErrorLog.Delete.Responses",
+      "title": "Responses for Delete Webhook Error Log",
+      "type": "section",
+      "location": {
+        "modality": "text",
+        "pages": null,
+        "lines": [
+          548,
+          563
+        ],
+        "start": null,
+        "end": null,
+        "bbox": null,
+        "virtual_address": null
+      },
+      "summary": "This section outlines the possible API responses, including success, unauthorized, and forbidden errors, for deleting webhook error logs.",
+      "children": []
+    },
+    {
+      "id": "API.Specifications.QueryTransactions.CustomerIdentifier",
+      "title": "Query Transactions Using Customer Identifier",
+      "type": "header",
+      "location": {
+        "modality": "text",
+        "pages": null,
+        "lines": [
+          564,
+          565
+        ],
+        "start": null,
+        "end": null,
+        "bbox": null,
+        "virtual_address": null
+      },
+      "summary": "This endpoint allows querying transactions made by a customer using their unique identifier.",
+      "children": []
+    },
+    {
+      "id": "API.Specifications.QueryTransactions.CustomerIdentifier.Description",
+      "title": "Query Customer Transactions",
+      "type": "section",
+      "location": {
+        "modality": "text",
+        "pages": null,
+        "lines": [
+          568,
+          569
+        ],
+        "start": null,
+        "end": null,
+        "bbox": null,
+        "virtual_address": null
+      },
+      "summary": "This endpoint queries transactions for a specific customer by replacing a placeholder in the URL with their unique identifier.",
+      "children": []
+    },
+    {
+      "id": "API.Specifications.QueryTransactions.CustomerIdentifier.Parameters",
+      "title": "Parameters for Query Transactions Using Customer Identifier",
+      "type": "section",
+      "location": {
+        "modality": "text",
+        "pages": null,
+        "lines": [
+          570,
+          570
+        ],
+        "start": null,
+        "end": null,
+        "bbox": null,
+        "virtual_address": null
+      },
+      "summary": "This section lists the path parameters required for querying transactions using a customer identifier.",
+      "children": []
+    },
+    {
+      "id": "API.Specifications.QueryTransactions.CustomerIdentifier.Parameters.Path",
+      "title": "Path Parameters for Query Transactions Using Customer Identifier",
+      "type": "section",
+      "location": {
+        "modality": "text",
+        "pages": null,
+        "lines": [
+          571,
+          573
+        ],
+        "start": null,
+        "end": null,
+        "bbox": null,
+        "virtual_address": null
+      },
+      "summary": "This details the 'customer_identifier' path field used to identify the customer whose transactions are to be queried.",
+      "children": []
+    },
+    {
+      "id": "API.Specifications.QueryTransactions.AllMerchant",
+      "title": "Query All Merchant's Transactions",
+      "type": "header",
+      "location": {
+        "modality": "text",
+        "pages": null,
+        "lines": [
+          575,
+          576
+        ],
+        "start": null,
+        "end": null,
+        "bbox": null,
+        "virtual_address": null
+      },
+      "summary": "This endpoint allows querying all transactions for a merchant over a period of time.",
+      "children": []
+    },
+    {
+      "id": "API.Specifications.QueryTransactions.AllMerchant.Description",
+      "title": "Query All Transactions",
+      "type": "section",
+      "location": {
+        "modality": "text",
+        "pages": null,
+        "lines": [
+          579,
+          580
+        ],
+        "start": null,
+        "end": null,
+        "bbox": null,
+        "virtual_address": null
+      },
+      "summary": "This endpoint allows querying all merchant transactions using only the authorization key from the dashboard.",
+      "children": []
+    },
+    {
+      "id": "API.Specifications.QueryTransactions.AllMerchant.Parameters",
+      "title": "Parameters for Query All Merchant's Transactions",
+      "type": "section",
+      "location": {
+        "modality": "text",
+        "pages": null,
+        "lines": [
+          581,
+          581
+        ],
+        "start": null,
+        "end": null,
+        "bbox": null,
+        "virtual_address": null
+      },
+      "summary": "This section indicates that there are no specific parameters required for querying all merchant transactions.",
+      "children": []
+    },
+    {
+      "id": "API.Specifications.QueryTransactions.AllMerchant.Parameters.NoParameters",
+      "title": "No Parameters for Query All Merchant's Transactions",
+      "type": "section",
+      "location": {
+        "modality": "text",
+        "pages": null,
+        "lines": [
+          582,
+          582
+        ],
+        "start": null,
+        "end": null,
+        "bbox": null,
+        "virtual_address": null
+      },
+      "summary": "This explicitly states that no parameters are needed for this API endpoint.",
+      "children": []
+    },
+    {
+      "id": "API.Specifications.QueryTransactions.AllMerchant.WithFilters",
+      "title": "Query All Merchant Transactions with Multiple Filters",
+      "type": "header",
+      "location": {
+        "modality": "text",
+        "pages": null,
+        "lines": [
+          625,
+          626
+        ],
+        "start": null,
+        "end": null,
+        "bbox": null,
+        "virtual_address": null
+      },
+      "summary": "This endpoint enables comprehensive querying of merchant transactions using multiple filtering criteria like virtual account number, dates, and customer identifier.",
+      "children": []
+    },
+    {
+      "id": "API.Specifications.QueryTransactions.AllMerchant.WithFilters.Description",
+      "title": "Query All Transactions with Multiple Filters",
+      "type": "section",
+      "location": {
+        "modality": "text",
+        "pages": null,
+        "lines": [
+          629,
+          630
+        ],
+        "start": null,
+        "end": null,
+        "bbox": null,
+        "virtual_address": null
+      },
+      "summary": "This endpoint allows querying all transactions with filters such as virtual account number, start and end dates, and customer identifier.",
+      "children": []
+    },
+    {
+      "id": "API.Specifications.QueryTransactions.AllMerchant.WithFilters.Parameters",
+      "title": "Parameters for Query All Merchant Transactions with Multiple Filters",
+      "type": "section",
+      "location": {
+        "modality": "text",
+        "pages": null,
+        "lines": [
+          631,
+          631
+        ],
+        "start": null,
+        "end": null,
+        "bbox": null,
+        "virtual_address": null
+      },
+      "summary": "This section lists the query parameters required for filtering all merchant transactions.",
+      "children": []
+    },
+    {
+      "id": "API.Specifications.QueryTransactions.AllMerchant.WithFilters.Parameters.Query",
+      "title": "Query Parameters for Query All Merchant Transactions with Multiple Filters",
+      "type": "section",
+      "location": {
+        "modality": "text",
+        "pages": null,
+        "lines": [
+          632,
+          645
+        ],
+        "start": null,
+        "end": null,
+        "bbox": null,
+        "virtual_address": null
+      },
+      "summary": "This details the various query fields including pagination, virtual account number, customer identifier, date ranges, transaction reference, session ID, and sorting direction.",
+      "children": []
+    },
+    {
+      "id": "API.Specifications.QueryTransactions.AllMerchant.WithFilters.Responses",
+      "title": "Responses for Query All Merchant Transactions with Multiple Filters",
+      "type": "section",
+      "location": {
+        "modality": "text",
+        "pages": null,
+        "lines": [
+          646,
+          765
+        ],
+        "start": null,
+        "end": null,
+        "bbox": null,
+        "virtual_address": null
+      },
+      "summary": "This section outlines the possible API responses, including success and various error types, for querying all merchant transactions with multiple filters.",
+      "children": []
+    },
+    {
+      "id": "API.Specifications.GetCustomerDetails.ByVirtualAccountNumber",
+      "title": "Get Customer Details by Virtual Account Number",
+      "type": "header",
+      "location": {
+        "modality": "text",
+        "pages": null,
+        "lines": [
+          766,
+          767
+        ],
+        "start": null,
+        "end": null,
+        "bbox": null,
+        "virtual_address": null
+      },
+      "summary": "This endpoint retrieves customer details using their assigned Virtual Account Number.",
+      "children": []
+    },
+    {
+      "id": "API.Specifications.GetCustomerDetails.ByVirtualAccountNumber.Description",
+      "title": "Retrieve Virtual Account Details",
+      "type": "section",
+      "location": {
+        "modality": "text",
+        "pages": null,
+        "lines": [
+          770,
+          771
+        ],
+        "start": null,
+        "end": null,
+        "bbox": null,
+        "virtual_address": null
+      },
+      "summary": "This endpoint retrieves customer details by replacing a placeholder in the URL with the virtual account number.",
+      "children": []
+    },
+    {
+      "id": "API.Specifications.GetCustomerDetails.ByVirtualAccountNumber.Parameters",
+      "title": "Parameters for Get Customer Details by Virtual Account Number",
+      "type": "section",
+      "location": {
+        "modality": "text",
+        "pages": null,
+        "lines": [
+          772,
+          772
+        ],
+        "start": null,
+        "end": null,
+        "bbox": null,
+        "virtual_address": null
+      },
+      "summary": "This section lists the path parameters required for retrieving customer details by virtual account number.",
+      "children": []
+    },
+    {
+      "id": "API.Specifications.GetCustomerDetails.ByVirtualAccountNumber.Parameters.Path",
+      "title": "Path Parameters for Get Customer Details by Virtual Account Number",
+      "type": "section",
+      "location": {
+        "modality": "text",
+        "pages": null,
+        "lines": [
+          773,
+          775
+        ],
+        "start": null,
+        "end": null,
+        "bbox": null,
+        "virtual_address": null
+      },
+      "summary": "This details the 'virtual_account_number' path field used to identify the customer.",
+      "children": []
+    },
+    {
+      "id": "API.Specifications.GetCustomerDetails.ByVirtualAccountNumber.Responses",
+      "title": "Responses for Get Customer Details by Virtual Account Number",
+      "type": "section",
+      "location": {
+        "modality": "text",
+        "pages": null,
+        "lines": [
+          776,
+          791
+        ],
+        "start": null,
+        "end": null,
+        "bbox": null,
+        "virtual_address": null
+      },
+      "summary": "This section outlines the possible API responses, including success and 'Not Found' errors, for retrieving customer details by virtual account number.",
+      "children": []
+    },
+    {
+      "id": "API.Specifications.GetCustomerDetails.ByCustomerIdentifier",
+      "title": "Get Customer Details Using Customer Identifier",
+      "type": "header",
+      "location": {
+        "modality": "text",
+        "pages": null,
+        "lines": [
+          792,
+          793
+        ],
+        "start": null,
+        "end": null,
+        "bbox": null,
+        "virtual_address": null
+      },
+      "summary": "This endpoint retrieves customer details using their unique customer identifier.",
+      "children": []
+    },
+    {
+      "id": "API.Specifications.GetCustomerDetails.ByCustomerIdentifier.Description",
+      "title": "Retrieve Virtual Account Details",
+      "type": "section",
+      "location": {
+        "modality": "text",
+        "pages": null,
+        "lines": [
+          796,
+          797
+        ],
+        "start": null,
+        "end": null,
+        "bbox": null,
+        "virtual_address": null
+      },
+      "summary": "This endpoint retrieves virtual account details for a customer by replacing a placeholder in the URL with their identifier.",
+      "children": []
+    },
+    {
+      "id": "API.Specifications.GetCustomerDetails.ByCustomerIdentifier.Parameters",
+      "title": "Parameters for Get Customer Details Using Customer Identifier",
+      "type": "section",
+      "location": {
+        "modality": "text",
+        "pages": null,
+        "lines": [
+          798,
+          798
+        ],
+        "start": null,
+        "end": null,
+        "bbox": null,
+        "virtual_address": null
+      },
+      "summary": "This section lists the path parameters required for retrieving customer details using their customer identifier.",
+      "children": []
+    },
+    {
+      "id": "API.Specifications.GetCustomerDetails.ByCustomerIdentifier.Parameters.Path",
+      "title": "Path Parameters for Get Customer Details Using Customer Identifier",
+      "type": "section",
+      "location": {
+        "modality": "text",
+        "pages": null,
+        "lines": [
+          799,
+          801
+        ],
+        "start": null,
+        "end": null,
+        "bbox": null,
+        "virtual_address": null
+      },
+      "summary": "This details the 'customer_identifier' path field used to identify the customer whose virtual account is to be retrieved.",
+      "children": []
+    },
+    {
+      "id": "API.Specifications.QueryVirtualAccounts.AllMerchant",
+      "title": "Query All Merchant's Virtual Accounts",
+      "type": "header",
+      "location": {
+        "modality": "text",
+        "pages": null,
+        "lines": [
+          804,
+          805
+        ],
+        "start": null,
+        "end": null,
+        "bbox": null,
+        "virtual_address": null
+      },
+      "summary": "This endpoint retrieves all virtual account numbers associated with a specific merchant.",
+      "children": []
+    },
+    {
+      "id": "API.Specifications.QueryVirtualAccounts.AllMerchant.Description",
+      "title": "Find All Virtual Account Number by Merchant",
+      "type": "section",
+      "location": {
+        "modality": "text",
+        "pages": null,
+        "lines": [
+          808,
+          809
+        ],
+        "start": null,
+        "end": null,
+        "bbox": null,
+        "virtual_address": null
+      },
+      "summary": "This endpoint allows merchants to query and retrieve all their virtual accounts.",
+      "children": []
+    },
+    {
+      "id": "API.Specifications.QueryVirtualAccounts.AllMerchant.Parameters",
+      "title": "Parameters for Query All Merchant's Virtual Accounts",
+      "type": "section",
+      "location": {
+        "modality": "text",
+        "pages": null,
+        "lines": [
+          810,
+          810
+        ],
+        "start": null,
+        "end": null,
+        "bbox": null,
+        "virtual_address": null
+      },
+      "summary": "This section lists the query parameters required for retrieving all virtual accounts for a merchant.",
+      "children": []
+    },
+    {
+      "id": "API.Specifications.QueryVirtualAccounts.AllMerchant.Parameters.Query",
+      "title": "Query Parameters for Query All Merchant's Virtual Accounts",
+      "type": "section",
+      "location": {
+        "modality": "text",
+        "pages": null,
+        "lines": [
+          811,
+          815
+        ],
+        "start": null,
+        "end": null,
+        "bbox": null,
+        "virtual_address": null
+      },
+      "summary": "This details the query fields including pagination, and start/end dates for filtering virtual accounts.",
+      "children": []
+    },
+    {
+      "id": "API.Specifications.SimulatePayment",
+      "title": "Simulate Payment",
+      "type": "header",
+      "location": {
+        "modality": "text",
+        "pages": null,
+        "lines": [
+          825,
+          826
+        ],
+        "start": null,
+        "end": null,
+        "bbox": null,
+        "virtual_address": null
+      },
+      "summary": "This endpoint provides functionality to simulate payments for testing purposes.",
+      "children": []
+    },
+    {
+      "id": "API.Specifications.SimulatePayment.Description",
+      "title": "Simulate Payment",
+      "type": "section",
+      "location": {
+        "modality": "text",
+        "pages": null,
+        "lines": [
+          828,
+          828
+        ],
+        "start": null,
+        "end": null,
+        "bbox": null,
+        "virtual_address": null
+      },
+      "summary": "This endpoint allows simulating a payment, with fields marked by asterisks being mandatory.",
+      "children": []
+    },
+    {
+      "id": "API.Specifications.SimulatePayment.Parameters",
+      "title": "Parameters for Simulate Payment",
+      "type": "section",
+      "location": {
+        "modality": "text",
+        "pages": null,
+        "lines": [
+          829,
+          829
+        ],
+        "start": null,
+        "end": null,
+        "bbox": null,
+        "virtual_address": null
+      },
+      "summary": "This section lists the header and body parameters required for simulating a payment.",
+      "children": []
+    },
+    {
+      "id": "API.Specifications.SimulatePayment.Parameters.Header",
+      "title": "Header Parameters for Simulate Payment",
+      "type": "section",
+      "location": {
+        "modality": "text",
+        "pages": null,
+        "lines": [
+          830,
+          832
+        ],
+        "start": null,
+        "end": null,
+        "bbox": null,
+        "virtual_address": null
+      },
+      "summary": "This details the 'content-type' and 'Authorization' header fields for simulating a payment.",
+      "children": []
+    },
+    {
+      "id": "API.Specifications.SimulatePayment.Parameters.Body",
+      "title": "Body Parameters for Simulate Payment",
+      "type": "section",
+      "location": {
+        "modality": "text",
+        "pages": null,
+        "lines": [
+          833,
+          836
+        ],
+        "start": null,
+        "end": null,
+        "bbox": null,
+        "virtual_address": null
+      },
+      "summary": "This details the mandatory 'virtual_account_number' and 'amount' fields for the request body when simulating a payment.",
+      "children": []
+    },
+    {
+      "id": "API.Specifications.SimulatePayment.Responses",
+      "title": "Responses for Simulate Payment",
+      "type": "section",
+      "location": {
+        "modality": "text",
+        "pages": null,
+        "lines": [
+          837,
+          843
+        ],
+        "start": null,
+        "end": null,
+        "bbox": null,
+        "virtual_address": null
+      },
+      "summary": "This section outlines the possible API responses, specifically a successful response, for simulating a payment.",
+      "children": []
+    },
+    {
+      "id": "API.Specifications.GoingLive",
+      "title": "Going Live",
+      "type": "header",
+      "location": {
+        "modality": "text",
+        "pages": null,
+        "lines": [
+          844,
+          852
+        ],
+        "start": null,
+        "end": null,
+        "bbox": null,
+        "virtual_address": null
+      },
+      "summary": "This section provides a step-by-step guide for merchants to transition their Virtual Accounts integration from sandbox to the live environment.",
+      "children": []
+    }
+  ],
+  "created_at": "2026-05-14T03:49:46.588839Z"
+}

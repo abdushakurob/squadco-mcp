@@ -1,0 +1,70 @@
+{
+  "resource_id": "index",
+  "type": "text",
+  "title": "Index",
+  "source_path": "/mnt/c/Users/st/Desktop/projects/squadco-mcp/docs/index.md",
+  "metadata": {
+    "source_hash": "cfe364952a6a8e4c0cc616d86eac801821cdc74f57f54640046eace83dcf2ad5",
+    "source_size": 3699
+  },
+  "nodes": [
+    {
+      "id": "WelcomeToSquadDocumentation",
+      "title": "Welcome to the Squad Documentation",
+      "type": "header",
+      "location": {
+        "modality": "text",
+        "pages": null,
+        "lines": [
+          21,
+          23
+        ],
+        "start": null,
+        "end": null,
+        "bbox": null,
+        "virtual_address": null
+      },
+      "summary": "This section welcomes users to Squad's documentation, highlighting their global payment feature for making and receiving payments worldwide.",
+      "children": []
+    },
+    {
+      "id": "GettingStarted",
+      "title": "Getting Started",
+      "type": "header",
+      "location": {
+        "modality": "text",
+        "pages": null,
+        "lines": [
+          25,
+          33
+        ],
+        "start": null,
+        "end": null,
+        "bbox": null,
+        "virtual_address": null
+      },
+      "summary": "This section provides an overview of Squad's core services, including accepting payments, making transfers, setting up recurring payments, and initiating refunds.",
+      "children": []
+    },
+    {
+      "id": "GettingStarted.BeforeYouBegin",
+      "title": "Before You Begin",
+      "type": "header",
+      "location": {
+        "modality": "text",
+        "pages": null,
+        "lines": [
+          35,
+          39
+        ],
+        "start": null,
+        "end": null,
+        "bbox": null,
+        "virtual_address": null
+      },
+      "summary": "This section outlines the essential steps users must complete before integrating with the Squad payment gateway, such as account creation and testing.",
+      "children": []
+    }
+  ],
+  "created_at": "2026-05-14T03:28:59.430678Z"
+}

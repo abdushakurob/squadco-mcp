@@ -1,0 +1,374 @@
+{
+  "resource_id": "Virtual-accounts_encryption-decryption",
+  "type": "text",
+  "title": "Virtual Accounts Encryption Decryption",
+  "source_path": "/mnt/c/Users/st/Desktop/projects/squadco-mcp/docs/Virtual-accounts_encryption-decryption.md",
+  "metadata": {
+    "source_hash": "4e716306862d5f2eceff8b05f261713f5521b9532e05534bb864730f2af4708a",
+    "source_size": 11160
+  },
+  "nodes": [
+    {
+      "id": "EncryptionDecryption",
+      "title": "Encryption & Decryption",
+      "type": "header",
+      "location": {
+        "modality": "text",
+        "pages": null,
+        "lines": [
+          27,
+          27
+        ],
+        "start": null,
+        "end": null,
+        "bbox": null,
+        "virtual_address": null
+      },
+      "summary": "An overview of encryption and decryption functions for merchant transactions across different programming languages.",
+      "children": []
+    },
+    {
+      "id": "EncryptionDecryption.Javascript",
+      "title": "Javascript",
+      "type": "section",
+      "location": {
+        "modality": "text",
+        "pages": null,
+        "lines": [
+          29,
+          29
+        ],
+        "start": null,
+        "end": null,
+        "bbox": null,
+        "virtual_address": null
+      },
+      "summary": "Provides Javascript code examples for implementing encryption and decryption processes.",
+      "children": []
+    },
+    {
+      "id": "EncryptionDecryption.Javascript.Encryption",
+      "title": "Encryption",
+      "type": "header",
+      "location": {
+        "modality": "text",
+        "pages": null,
+        "lines": [
+          30,
+          30
+        ],
+        "start": null,
+        "end": null,
+        "bbox": null,
+        "virtual_address": null
+      },
+      "summary": "Demonstrates a Javascript code snippet for encrypting data using AES-256.",
+      "children": []
+    },
+    {
+      "id": "EncryptionDecryption.Javascript.Decryption",
+      "title": "Decryption",
+      "type": "header",
+      "location": {
+        "modality": "text",
+        "pages": null,
+        "lines": [
+          39,
+          39
+        ],
+        "start": null,
+        "end": null,
+        "bbox": null,
+        "virtual_address": null
+      },
+      "summary": "Demonstrates a Javascript code snippet for decrypting data using AES-256.",
+      "children": []
+    },
+    {
+      "id": "EncryptionDecryption.Python",
+      "title": "Python",
+      "type": "section",
+      "location": {
+        "modality": "text",
+        "pages": null,
+        "lines": [
+          48,
+          48
+        ],
+        "start": null,
+        "end": null,
+        "bbox": null,
+        "virtual_address": null
+      },
+      "summary": "Provides Python code examples for implementing encryption and decryption processes.",
+      "children": []
+    },
+    {
+      "id": "EncryptionDecryption.Python._pad",
+      "title": "_pad",
+      "type": "function",
+      "location": {
+        "modality": "text",
+        "pages": null,
+        "lines": [
+          54,
+          54
+        ],
+        "start": null,
+        "end": null,
+        "bbox": null,
+        "virtual_address": null
+      },
+      "summary": "A helper function to pad a string to be a multiple of the AES block size.",
+      "children": []
+    },
+    {
+      "id": "EncryptionDecryption.Python._cipher",
+      "title": "_cipher",
+      "type": "function",
+      "location": {
+        "modality": "text",
+        "pages": null,
+        "lines": [
+          55,
+          57
+        ],
+        "start": null,
+        "end": null,
+        "bbox": null,
+        "virtual_address": null
+      },
+      "summary": "Initializes and returns an AES cipher object using provided merchant secret and public keys.",
+      "children": []
+    },
+    {
+      "id": "EncryptionDecryption.Python.encrypt_token",
+      "title": "encrypt_token",
+      "type": "function",
+      "location": {
+        "modality": "text",
+        "pages": null,
+        "lines": [
+          59,
+          59
+        ],
+        "start": null,
+        "end": null,
+        "bbox": null,
+        "virtual_address": null
+      },
+      "summary": "Encrypts data using the configured AES cipher.",
+      "children": []
+    },
+    {
+      "id": "EncryptionDecryption.Python.decrypt_token",
+      "title": "decrypt_token",
+      "type": "function",
+      "location": {
+        "modality": "text",
+        "pages": null,
+        "lines": [
+          61,
+          61
+        ],
+        "start": null,
+        "end": null,
+        "bbox": null,
+        "virtual_address": null
+      },
+      "summary": "Decrypts data using the configured AES cipher.",
+      "children": []
+    },
+    {
+      "id": "EncryptionDecryption.PHP",
+      "title": "PHP",
+      "type": "section",
+      "location": {
+        "modality": "text",
+        "pages": null,
+        "lines": [
+          72,
+          72
+        ],
+        "start": null,
+        "end": null,
+        "bbox": null,
+        "virtual_address": null
+      },
+      "summary": "Provides PHP code examples for implementing encryption and decryption processes.",
+      "children": []
+    },
+    {
+      "id": "EncryptionDecryption.PHP.AES",
+      "title": "AES",
+      "type": "class",
+      "location": {
+        "modality": "text",
+        "pages": null,
+        "lines": [
+          75,
+          96
+        ],
+        "start": null,
+        "end": null,
+        "bbox": null,
+        "virtual_address": null
+      },
+      "summary": "A PHP class providing methods for AES encryption and decryption using openssl.",
+      "children": []
+    },
+    {
+      "id": "EncryptionDecryption.PHP.AES.encryptToken",
+      "title": "encryptToken",
+      "type": "method",
+      "location": {
+        "modality": "text",
+        "pages": null,
+        "lines": [
+          78,
+          83
+        ],
+        "start": null,
+        "end": null,
+        "bbox": null,
+        "virtual_address": null
+      },
+      "summary": "Encrypts data using AES-256 with generated key and IV from merchant secret and public keys.",
+      "children": []
+    },
+    {
+      "id": "EncryptionDecryption.PHP.AES.decryptToken",
+      "title": "decryptToken",
+      "type": "method",
+      "location": {
+        "modality": "text",
+        "pages": null,
+        "lines": [
+          85,
+          90
+        ],
+        "start": null,
+        "end": null,
+        "bbox": null,
+        "virtual_address": null
+      },
+      "summary": "Decrypts base64-encoded data using AES-256 with generated key and IV from merchant secret and public keys.",
+      "children": []
+    },
+    {
+      "id": "EncryptionDecryption.CSharp",
+      "title": "C#",
+      "type": "section",
+      "location": {
+        "modality": "text",
+        "pages": null,
+        "lines": [
+          119,
+          119
+        ],
+        "start": null,
+        "end": null,
+        "bbox": null,
+        "virtual_address": null
+      },
+      "summary": "Provides C# code examples for implementing encryption and decryption processes.",
+      "children": []
+    },
+    {
+      "id": "EncryptionDecryption.CSharp.ManagedAesSample",
+      "title": "ManagedAesSample",
+      "type": "class",
+      "location": {
+        "modality": "text",
+        "pages": null,
+        "lines": [
+          121,
+          172
+        ],
+        "start": null,
+        "end": null,
+        "bbox": null,
+        "virtual_address": null
+      },
+      "summary": "A C# class demonstrating basic AES encryption and decryption operations using `AesManaged`.",
+      "children": []
+    },
+    {
+      "id": "EncryptionDecryption.CSharp.ManagedAesSample.Main",
+      "title": "Main",
+      "type": "method",
+      "location": {
+        "modality": "text",
+        "pages": null,
+        "lines": [
+          123,
+          126
+        ],
+        "start": null,
+        "end": null,
+        "bbox": null,
+        "virtual_address": null
+      },
+      "summary": "The entry point for the C# program, handling user input and invoking encryption/decryption demonstration.",
+      "children": []
+    },
+    {
+      "id": "EncryptionDecryption.CSharp.ManagedAesSample.EncryptAesManaged",
+      "title": "EncryptAesManaged",
+      "type": "method",
+      "location": {
+        "modality": "text",
+        "pages": null,
+        "lines": [
+          127,
+          145
+        ],
+        "start": null,
+        "end": null,
+        "bbox": null,
+        "virtual_address": null
+      },
+      "summary": "Demonstrates the encryption and decryption flow for a given string using a generated AES key and IV.",
+      "children": []
+    },
+    {
+      "id": "EncryptionDecryption.CSharp.ManagedAesSample.Encrypt",
+      "title": "Encrypt",
+      "type": "method",
+      "location": {
+        "modality": "text",
+        "pages": null,
+        "lines": [
+          146,
+          160
+        ],
+        "start": null,
+        "end": null,
+        "bbox": null,
+        "virtual_address": null
+      },
+      "summary": "Encrypts a plaintext string into a byte array using the specified AES key and initialization vector.",
+      "children": []
+    },
+    {
+      "id": "EncryptionDecryption.CSharp.ManagedAesSample.Decrypt",
+      "title": "Decrypt",
+      "type": "method",
+      "location": {
+        "modality": "text",
+        "pages": null,
+        "lines": [
+          161,
+          171
+        ],
+        "start": null,
+        "end": null,
+        "bbox": null,
+        "virtual_address": null
+      },
+      "summary": "Decrypts a ciphertext byte array back into a plaintext string using the specified AES key and initialization vector.",
+      "children": []
+    }
+  ],
+  "created_at": "2026-05-14T03:50:44.785921Z"
+}

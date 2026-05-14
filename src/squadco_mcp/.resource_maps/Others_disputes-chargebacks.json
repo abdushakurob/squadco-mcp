@@ -1,0 +1,165 @@
+{
+  "resource_id": "Others_disputes-chargebacks",
+  "type": "text",
+  "title": "Others Disputes Chargebacks",
+  "source_path": "/mnt/c/Users/st/Desktop/projects/squadco-mcp/docs/Others_disputes-chargebacks.md",
+  "metadata": {
+    "source_hash": "e4054b85fdef066ed942427a4b83eb2739453ffc5462d5f3f3a7ac8f7760068b",
+    "source_size": 5982
+  },
+  "nodes": [
+    {
+      "id": "Disputes_Chargebacks",
+      "title": "Disputes & Chargebacks",
+      "type": "header",
+      "location": {
+        "modality": "text",
+        "pages": null,
+        "lines": [
+          20,
+          23
+        ],
+        "start": null,
+        "end": null,
+        "bbox": null,
+        "virtual_address": null
+      },
+      "summary": "This contains a list of APIs that allow you get all disputes raised on your transaction, reject the claim with an evidence or accept the claim and accept a charge back to be performed.",
+      "children": []
+    },
+    {
+      "id": "Disputes_Chargebacks.Accepting_Chargeback",
+      "title": "Accepting a chargeback",
+      "type": "section",
+      "location": {
+        "modality": "text",
+        "pages": null,
+        "lines": [
+          24,
+          27
+        ],
+        "start": null,
+        "end": null,
+        "bbox": null,
+        "virtual_address": null
+      },
+      "summary": "This means you received the customer’s payment but did not provide the service or product the customer requested for some reasons.",
+      "children": []
+    },
+    {
+      "id": "Disputes_Chargebacks.Rejecting_Chargeback",
+      "title": "Rejecting a chargeback",
+      "type": "section",
+      "location": {
+        "modality": "text",
+        "pages": null,
+        "lines": [
+          28,
+          37
+        ],
+        "start": null,
+        "end": null,
+        "bbox": null,
+        "virtual_address": null
+      },
+      "summary": "This means you received the customer’s payment and have provided the service or delivered the product to the customer.",
+      "children": []
+    },
+    {
+      "id": "Disputes_Chargebacks.API_Environment_Authorization",
+      "title": "API Environment and Authorization",
+      "type": "section",
+      "location": {
+        "modality": "text",
+        "pages": null,
+        "lines": [
+          38,
+          42
+        ],
+        "start": null,
+        "end": null,
+        "bbox": null,
+        "virtual_address": null
+      },
+      "summary": "This section provides the base URLs for test and production environments and explains how to pass authorization keys via headers.",
+      "children": []
+    },
+    {
+      "id": "Disputes_Chargebacks.GET_ALL_DISPUTES",
+      "title": "GET ALL DISPUTES",
+      "type": "section",
+      "location": {
+        "modality": "text",
+        "pages": null,
+        "lines": [
+          44,
+          53
+        ],
+        "start": null,
+        "end": null,
+        "bbox": null,
+        "virtual_address": null
+      },
+      "summary": "This API is used to get all disputes on your transactions raised by your customers.",
+      "children": []
+    },
+    {
+      "id": "Disputes_Chargebacks.Get_Upload_URL",
+      "title": "Get Upload URL",
+      "type": "section",
+      "location": {
+        "modality": "text",
+        "pages": null,
+        "lines": [
+          55,
+          62
+        ],
+        "start": null,
+        "end": null,
+        "bbox": null,
+        "virtual_address": null
+      },
+      "summary": "This API is used to get a unique URL to upload an evidence(file) which is a proof or reason to reject a dispute.",
+      "children": []
+    },
+    {
+      "id": "Disputes_Chargebacks.Resolve_Disputes",
+      "title": "Resolve Disputes",
+      "type": "section",
+      "location": {
+        "modality": "text",
+        "pages": null,
+        "lines": [
+          64,
+          74
+        ],
+        "start": null,
+        "end": null,
+        "bbox": null,
+        "virtual_address": null
+      },
+      "summary": "This API is used to resolve a dispute by either accepting or rejecting it.",
+      "children": []
+    },
+    {
+      "id": "Disputes_Chargebacks.GO_LIVE_Production",
+      "title": "GO LIVE - Production",
+      "type": "section",
+      "location": {
+        "modality": "text",
+        "pages": null,
+        "lines": [
+          76,
+          82
+        ],
+        "start": null,
+        "end": null,
+        "bbox": null,
+        "virtual_address": null
+      },
+      "summary": "This section provides instructions for transitioning the API usage to a production environment by changing the base URL and authorization keys.",
+      "children": []
+    }
+  ],
+  "created_at": "2026-05-14T03:29:19.197280Z"
+}

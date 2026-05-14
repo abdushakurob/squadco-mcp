@@ -1,0 +1,165 @@
+{
+  "resource_id": "Payments_direct-api-integration",
+  "type": "text",
+  "title": "Payments Direct Api Integration",
+  "source_path": "/mnt/c/Users/st/Desktop/projects/squadco-mcp/docs/Payments_direct-api-integration.md",
+  "metadata": {
+    "source_hash": "137b0e2d9871447b92613dac8f22670b40e2b6e0ab8ac402213c29ba0bdf7363",
+    "source_size": 21826
+  },
+  "nodes": [
+    {
+      "id": "DirectAPIIntegration",
+      "title": "Direct API Integration",
+      "type": "header",
+      "location": {
+        "modality": "text",
+        "pages": null,
+        "lines": [
+          31,
+          40
+        ],
+        "start": null,
+        "end": null,
+        "bbox": null,
+        "virtual_address": null
+      },
+      "summary": "This suite of APIs allows direct initiation of CARD, BANK, and USSD transactions without using the Squad Modal, with general environment and authorization details provided.",
+      "children": []
+    },
+    {
+      "id": "DirectAPIIntegration.DirectCARD",
+      "title": "Direct CARD Payments",
+      "type": "section",
+      "location": {
+        "modality": "text",
+        "pages": null,
+        "lines": [
+          41,
+          53
+        ],
+        "start": null,
+        "end": null,
+        "bbox": null,
+        "virtual_address": null
+      },
+      "summary": "This section details the API suite for merchants to directly collect and charge customer card details, outlining various payment scenarios and test cards.",
+      "children": []
+    },
+    {
+      "id": "DirectAPIIntegration.DirectCARD.ChargeCard",
+      "title": "Charge Card",
+      "type": "function",
+      "location": {
+        "modality": "text",
+        "pages": null,
+        "lines": [
+          54,
+          161
+        ],
+        "start": null,
+        "end": null,
+        "bbox": null,
+        "virtual_address": null
+      },
+      "summary": "This POST endpoint initiates a card transaction by accepting collected card details and other required fields, returning a transaction status that dictates the next authorization step.",
+      "children": []
+    },
+    {
+      "id": "DirectAPIIntegration.DirectCARD.AuthorizePayment",
+      "title": "Authorize Card Payment",
+      "type": "function",
+      "location": {
+        "modality": "text",
+        "pages": null,
+        "lines": [
+          162,
+          234
+        ],
+        "start": null,
+        "end": null,
+        "bbox": null,
+        "virtual_address": null
+      },
+      "summary": "This POST endpoint authorizes a card payment based on the transaction status from the initial charge, supporting PIN, OTP, or 3DS challenges.",
+      "children": []
+    },
+    {
+      "id": "DirectAPIIntegration.DirectGTBankDebit",
+      "title": "Initiate Direct GTBank Account Debit",
+      "type": "function",
+      "location": {
+        "modality": "text",
+        "pages": null,
+        "lines": [
+          236,
+          299
+        ],
+        "start": null,
+        "end": null,
+        "bbox": null,
+        "virtual_address": null
+      },
+      "summary": "This POST endpoint initiates a direct debit from a GTBank account using the account or phone number, requiring a subsequent validation step for completion.",
+      "children": []
+    },
+    {
+      "id": "DirectAPIIntegration.DirectGTBankDebit.ValidatePayment",
+      "title": "Validate Direct Bank API Payment",
+      "type": "function",
+      "location": {
+        "modality": "text",
+        "pages": null,
+        "lines": [
+          300,
+          359
+        ],
+        "start": null,
+        "end": null,
+        "bbox": null,
+        "virtual_address": null
+      },
+      "summary": "This POST endpoint is used to authenticate and finalize a direct bank account debit transaction by receiving an OTP or token from the user based on the 'auth_model'.",
+      "children": []
+    },
+    {
+      "id": "DirectAPIIntegration.InitiateUSSDPayment",
+      "title": "Initiate USSD Payment",
+      "type": "function",
+      "location": {
+        "modality": "text",
+        "pages": null,
+        "lines": [
+          361,
+          432
+        ],
+        "start": null,
+        "end": null,
+        "bbox": null,
+        "virtual_address": null
+      },
+      "summary": "This POST endpoint initiates a USSD transaction, processing payment details and generating a USSD code for the customer to complete the payment, listing supported banks.",
+      "children": []
+    },
+    {
+      "id": "DirectAPIIntegration.GoLive",
+      "title": "Go Live",
+      "type": "section",
+      "location": {
+        "modality": "text",
+        "pages": null,
+        "lines": [
+          434,
+          440
+        ],
+        "start": null,
+        "end": null,
+        "bbox": null,
+        "virtual_address": null
+      },
+      "summary": "This section provides essential steps for transitioning from the sandbox environment to live production, including URL updates, account registration, KYC completion, and API key replacement.",
+      "children": []
+    }
+  ],
+  "created_at": "2026-05-14T03:32:32.371584Z"
+}

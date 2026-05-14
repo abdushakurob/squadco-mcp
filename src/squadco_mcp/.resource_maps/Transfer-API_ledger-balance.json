@@ -1,0 +1,222 @@
+{
+  "resource_id": "Transfer-API_ledger-balance",
+  "type": "text",
+  "title": "Transfer Api Ledger Balance",
+  "source_path": "/mnt/c/Users/st/Desktop/projects/squadco-mcp/docs/Transfer-API_ledger-balance.md",
+  "metadata": {
+    "source_hash": "626e837f782402efa6eca4084572523f8ed3fb12dc79d7f9b97854da0e807cf8",
+    "source_size": 3003
+  },
+  "nodes": [
+    {
+      "id": "LedgerBalance",
+      "title": "Ledger Balance",
+      "type": "header",
+      "location": {
+        "modality": "text",
+        "pages": null,
+        "lines": [
+          24,
+          24
+        ],
+        "start": null,
+        "end": null,
+        "bbox": null,
+        "virtual_address": null
+      },
+      "summary": "The main header for the document, describing the Ledger Balance API.",
+      "children": []
+    },
+    {
+      "id": "LedgerBalance.EndpointPurpose",
+      "title": "Endpoint Purpose",
+      "type": "section",
+      "location": {
+        "modality": "text",
+        "pages": null,
+        "lines": [
+          25,
+          25
+        ],
+        "start": null,
+        "end": null,
+        "bbox": null,
+        "virtual_address": null
+      },
+      "summary": "This section provides a brief description of the endpoint's purpose, allowing users to get their Squad Account Balance.",
+      "children": []
+    },
+    {
+      "id": "LedgerBalance.APIDetails",
+      "title": "API Details",
+      "type": "section",
+      "location": {
+        "modality": "text",
+        "pages": null,
+        "lines": [
+          27,
+          38
+        ],
+        "start": null,
+        "end": null,
+        "bbox": null,
+        "virtual_address": null
+      },
+      "summary": "This section outlines the environment base URLs, authorization requirements, currency notes, and the specific GET endpoint for ledger balance.",
+      "children": []
+    },
+    {
+      "id": "LedgerBalance.EndpointDescription",
+      "title": "Endpoint Description",
+      "type": "header",
+      "location": {
+        "modality": "text",
+        "pages": null,
+        "lines": [
+          39,
+          39
+        ],
+        "start": null,
+        "end": null,
+        "bbox": null,
+        "virtual_address": null
+      },
+      "summary": "This header reiterates the endpoint's function to retrieve Squad Ledger Balance, specifying that the amount is in KOBO.",
+      "children": []
+    },
+    {
+      "id": "LedgerBalance.Parameters",
+      "title": "Parameters",
+      "type": "header",
+      "location": {
+        "modality": "text",
+        "pages": null,
+        "lines": [
+          40,
+          40
+        ],
+        "start": null,
+        "end": null,
+        "bbox": null,
+        "virtual_address": null
+      },
+      "summary": "This header introduces the parameters required for the API request.",
+      "children": []
+    },
+    {
+      "id": "LedgerBalance.Parameters.Query",
+      "title": "Query Parameters",
+      "type": "header",
+      "location": {
+        "modality": "text",
+        "pages": null,
+        "lines": [
+          41,
+          41
+        ],
+        "start": null,
+        "end": null,
+        "bbox": null,
+        "virtual_address": null
+      },
+      "summary": "This header specifies that the following details are for query parameters.",
+      "children": []
+    },
+    {
+      "id": "LedgerBalance.Parameters.Query.currency_id",
+      "title": "currency_id Parameter",
+      "type": "section",
+      "location": {
+        "modality": "text",
+        "pages": null,
+        "lines": [
+          42,
+          44
+        ],
+        "start": null,
+        "end": null,
+        "bbox": null,
+        "virtual_address": null
+      },
+      "summary": "Describes the `currency_id` query parameter, which only accepts 'NGN' and does not support Dollar transactions.",
+      "children": []
+    },
+    {
+      "id": "LedgerBalance.Responses",
+      "title": "Responses",
+      "type": "header",
+      "location": {
+        "modality": "text",
+        "pages": null,
+        "lines": [
+          45,
+          45
+        ],
+        "start": null,
+        "end": null,
+        "bbox": null,
+        "virtual_address": null
+      },
+      "summary": "This header introduces the possible responses from the API endpoint.",
+      "children": []
+    },
+    {
+      "id": "LedgerBalance.Responses.200_OK",
+      "title": "200 OK Response",
+      "type": "section",
+      "location": {
+        "modality": "text",
+        "pages": null,
+        "lines": [
+          46,
+          56
+        ],
+        "start": null,
+        "end": null,
+        "bbox": null,
+        "virtual_address": null
+      },
+      "summary": "Details the successful 200 OK response, including its status, message, and data structure with balance, currency, and merchant ID.",
+      "children": []
+    },
+    {
+      "id": "LedgerBalance.Responses.401_Unauthorized",
+      "title": "401 Unauthorized Response",
+      "type": "section",
+      "location": {
+        "modality": "text",
+        "pages": null,
+        "lines": [
+          58,
+          64
+        ],
+        "start": null,
+        "end": null,
+        "bbox": null,
+        "virtual_address": null
+      },
+      "summary": "Details the 401 Unauthorized response, indicating a lack of proper authorization for the request.",
+      "children": []
+    },
+    {
+      "id": "LedgerBalance.Responses.403_Forbidden",
+      "title": "403 Forbidden Response",
+      "type": "section",
+      "location": {
+        "modality": "text",
+        "pages": null,
+        "lines": [
+          66,
+          72
+        ],
+        "start": null,
+        "end": null,
+        "bbox": null,
+        "virtual_address": null
+      },
+      "summary": "Details the 403 Forbidden response, indicating that invalid or wrong API keys were provided.",
+      "children": []
+    }
+  ],
+  "created_at": "2026-05-14T03:44:19.402063Z"
+}

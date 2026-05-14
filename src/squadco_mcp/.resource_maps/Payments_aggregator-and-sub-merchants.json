@@ -1,0 +1,70 @@
+{
+  "resource_id": "Payments_aggregator-and-sub-merchants",
+  "type": "text",
+  "title": "Payments Aggregator And Sub Merchants",
+  "source_path": "/mnt/c/Users/st/Desktop/projects/squadco-mcp/docs/Payments_aggregator-and-sub-merchants.md",
+  "metadata": {
+    "source_hash": "36d09ee3bc81cea3962dc3e087452c707042208d5d6453c613af22d2e4553e0d",
+    "source_size": 4875
+  },
+  "nodes": [
+    {
+      "id": "AggregatorAndSubMerchants",
+      "title": "Aggregator and Sub-merchants",
+      "type": "header",
+      "location": {
+        "modality": "text",
+        "pages": null,
+        "lines": [
+          27,
+          40
+        ],
+        "start": null,
+        "end": null,
+        "bbox": null,
+        "virtual_address": null
+      },
+      "summary": "Introduces the Aggregator and Sub-merchants API, detailing its purpose, environment base URLs, and authorization method.",
+      "children": []
+    },
+    {
+      "id": "AggregatorAndSubMerchants.CreateSubMerchants",
+      "title": "Create Sub-merchants",
+      "type": "header",
+      "location": {
+        "modality": "text",
+        "pages": null,
+        "lines": [
+          42,
+          60
+        ],
+        "start": null,
+        "end": null,
+        "bbox": null,
+        "virtual_address": null
+      },
+      "summary": "Describes the API endpoint used to create a new sub-merchant, detailing the HTTP method, URL, and required body parameters.",
+      "children": []
+    },
+    {
+      "id": "AggregatorAndSubMerchants.CreateSubMerchants.Responses",
+      "title": "Responses",
+      "type": "header",
+      "location": {
+        "modality": "text",
+        "pages": null,
+        "lines": [
+          62,
+          107
+        ],
+        "start": null,
+        "end": null,
+        "bbox": null,
+        "virtual_address": null
+      },
+      "summary": "Outlines the possible HTTP responses for the 'Create Sub-merchants' API, including success and various error conditions with example JSON payloads.",
+      "children": []
+    }
+  ],
+  "created_at": "2026-05-14T03:30:49.069024Z"
+}

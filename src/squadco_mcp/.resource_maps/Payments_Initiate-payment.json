@@ -1,0 +1,944 @@
+{
+  "resource_id": "Payments_Initiate-payment",
+  "type": "text",
+  "title": "Payments Initiate Payment",
+  "source_path": "/mnt/c/Users/st/Desktop/projects/squadco-mcp/docs/Payments_Initiate-payment.md",
+  "metadata": {
+    "source_hash": "f72e631d8e36be00a940af9e4d135b9f6ff7d85b34de6fc59c0d6418ca162e0c",
+    "source_size": 19481
+  },
+  "nodes": [
+    {
+      "id": "Initiate_Payment",
+      "title": "Initiate Payment",
+      "type": "header",
+      "location": {
+        "modality": "text",
+        "pages": null,
+        "lines": [
+          30,
+          31
+        ],
+        "start": null,
+        "end": null,
+        "bbox": null,
+        "virtual_address": null
+      },
+      "summary": "This API allows initiating transactions by making server calls that return a checkout URL for the payment modal.",
+      "children": []
+    },
+    {
+      "id": "Initiate_Payment.Enter_Payment_details",
+      "title": "Enter Payment details",
+      "type": "header",
+      "location": {
+        "modality": "text",
+        "pages": null,
+        "lines": [
+          41,
+          46
+        ],
+        "start": null,
+        "end": null,
+        "bbox": null,
+        "virtual_address": null
+      },
+      "summary": "This section guides users on providing payment details for initiating transactions.",
+      "children": []
+    },
+    {
+      "id": "Initiate_Payment.API.Initiate",
+      "title": "Initiate Transaction",
+      "type": "function",
+      "location": {
+        "modality": "text",
+        "pages": null,
+        "lines": [
+          48,
+          50
+        ],
+        "start": null,
+        "end": null,
+        "bbox": null,
+        "virtual_address": null
+      },
+      "summary": "This endpoint initiates a transaction by making server calls and returns a checkout URL.",
+      "children": []
+    },
+    {
+      "id": "Initiate_Payment.API.Initiate.cURL_Example",
+      "title": "cURL Example (Initiate Transaction)",
+      "type": "directive",
+      "location": {
+        "modality": "text",
+        "pages": null,
+        "lines": [
+          52,
+          63
+        ],
+        "start": null,
+        "end": null,
+        "bbox": null,
+        "virtual_address": null
+      },
+      "summary": "A cURL example demonstrating how to call the transaction initiation endpoint with required headers and raw data.",
+      "children": []
+    },
+    {
+      "id": "Initiate_Payment.API.Initiate.Parameters",
+      "title": "Parameters",
+      "type": "section",
+      "location": {
+        "modality": "text",
+        "pages": null,
+        "lines": [
+          65,
+          96
+        ],
+        "start": null,
+        "end": null,
+        "bbox": null,
+        "virtual_address": null
+      },
+      "summary": "This section lists all the required and optional parameters for the transaction initiation endpoint, including headers and body fields.",
+      "children": []
+    },
+    {
+      "id": "Initiate_Payment.API.Initiate.Parameters.Header",
+      "title": "Header Parameters",
+      "type": "section",
+      "location": {
+        "modality": "text",
+        "pages": null,
+        "lines": [
+          66,
+          68
+        ],
+        "start": null,
+        "end": null,
+        "bbox": null,
+        "virtual_address": null
+      },
+      "summary": "Describes the 'Authorization' header parameter for authenticating transaction initiation requests using API keys.",
+      "children": []
+    },
+    {
+      "id": "Initiate_Payment.API.Initiate.Parameters.Body",
+      "title": "Body Parameters",
+      "type": "section",
+      "location": {
+        "modality": "text",
+        "pages": null,
+        "lines": [
+          69,
+          96
+        ],
+        "start": null,
+        "end": null,
+        "bbox": null,
+        "virtual_address": null
+      },
+      "summary": "Describes body parameters like email, amount, currency, transaction reference, and other details for the transaction initiation request.",
+      "children": []
+    },
+    {
+      "id": "Initiate_Payment.API.Initiate.Responses",
+      "title": "Responses",
+      "type": "section",
+      "location": {
+        "modality": "text",
+        "pages": null,
+        "lines": [
+          97,
+          144
+        ],
+        "start": null,
+        "end": null,
+        "bbox": null,
+        "virtual_address": null
+      },
+      "summary": "This section outlines the possible HTTP responses and their structures for the transaction initiation endpoint.",
+      "children": []
+    },
+    {
+      "id": "Initiate_Payment.API.Initiate.Responses.200_OK",
+      "title": "200 OK Response",
+      "type": "section",
+      "location": {
+        "modality": "text",
+        "pages": null,
+        "lines": [
+          98,
+          127
+        ],
+        "start": null,
+        "end": null,
+        "bbox": null,
+        "virtual_address": null
+      },
+      "summary": "Details the successful response (HTTP 200 OK) for the transaction initiation, including data like checkout URL, transaction reference, and merchant information.",
+      "children": []
+    },
+    {
+      "id": "Initiate_Payment.API.Initiate.Responses.401_Unauthorized",
+      "title": "401 Unauthorized Response",
+      "type": "section",
+      "location": {
+        "modality": "text",
+        "pages": null,
+        "lines": [
+          128,
+          133
+        ],
+        "start": null,
+        "end": null,
+        "bbox": null,
+        "virtual_address": null
+      },
+      "summary": "Details the unauthorized response (HTTP 401) for the transaction initiation, indicating invalid or missing authorization keys.",
+      "children": []
+    },
+    {
+      "id": "Initiate_Payment.API.Initiate.Responses.400_Bad_Request",
+      "title": "400 Bad Request Response",
+      "type": "section",
+      "location": {
+        "modality": "text",
+        "pages": null,
+        "lines": [
+          134,
+          139
+        ],
+        "start": null,
+        "end": null,
+        "bbox": null,
+        "virtual_address": null
+      },
+      "summary": "Details the bad request response (HTTP 400) for the transaction initiation, often due to missing required parameters like 'email'.",
+      "children": []
+    },
+    {
+      "id": "Initiate_Payment.API.Initiate.Sample_Request",
+      "title": "Sample Request (Initiate Payment)",
+      "type": "header",
+      "location": {
+        "modality": "text",
+        "pages": null,
+        "lines": [
+          145,
+          153
+        ],
+        "start": null,
+        "end": null,
+        "bbox": null,
+        "virtual_address": null
+      },
+      "summary": "Provides a sample JSON payload for initiating a payment request, including amount, email, currency, and callback URL.",
+      "children": []
+    },
+    {
+      "id": "Simulate_Test_Payment_Transfer",
+      "title": "Simulate Test Payment (Transfer)",
+      "type": "header",
+      "location": {
+        "modality": "text",
+        "pages": null,
+        "lines": [
+          155,
+          157
+        ],
+        "start": null,
+        "end": null,
+        "bbox": null,
+        "virtual_address": null
+      },
+      "summary": "This section explains how to simulate a payment into a dynamic virtual account in the test environment to complete a transaction.",
+      "children": []
+    },
+    {
+      "id": "Simulate_Test_Payment_Transfer.API.Simulate_Payment",
+      "title": "Simulate Payment",
+      "type": "function",
+      "location": {
+        "modality": "text",
+        "pages": null,
+        "lines": [
+          158,
+          160
+        ],
+        "start": null,
+        "end": null,
+        "bbox": null,
+        "virtual_address": null
+      },
+      "summary": "This endpoint allows simulating a payment into a dynamically generated virtual account.",
+      "children": []
+    },
+    {
+      "id": "Simulate_Test_Payment_Transfer.API.Simulate_Payment.Parameters",
+      "title": "Parameters",
+      "type": "section",
+      "location": {
+        "modality": "text",
+        "pages": null,
+        "lines": [
+          161,
+          168
+        ],
+        "start": null,
+        "end": null,
+        "bbox": null,
+        "virtual_address": null
+      },
+      "summary": "Lists the header and body parameters required for simulating a payment into a virtual account.",
+      "children": []
+    },
+    {
+      "id": "Simulate_Test_Payment_Transfer.API.Simulate_Payment.Parameters.Header",
+      "title": "Header Parameters",
+      "type": "section",
+      "location": {
+        "modality": "text",
+        "pages": null,
+        "lines": [
+          162,
+          164
+        ],
+        "start": null,
+        "end": null,
+        "bbox": null,
+        "virtual_address": null
+      },
+      "summary": "Describes the 'Authorization' header parameter for authenticating simulate payment requests.",
+      "children": []
+    },
+    {
+      "id": "Simulate_Test_Payment_Transfer.API.Simulate_Payment.Parameters.Body",
+      "title": "Body Parameters",
+      "type": "section",
+      "location": {
+        "modality": "text",
+        "pages": null,
+        "lines": [
+          165,
+          168
+        ],
+        "start": null,
+        "end": null,
+        "bbox": null,
+        "virtual_address": null
+      },
+      "summary": "Describes body parameters like 'virtual_account_number' and 'amount' for simulating a payment.",
+      "children": []
+    },
+    {
+      "id": "Simulate_Test_Payment_Transfer.API.Simulate_Payment.Responses",
+      "title": "Responses",
+      "type": "section",
+      "location": {
+        "modality": "text",
+        "pages": null,
+        "lines": [
+          169,
+          185
+        ],
+        "start": null,
+        "end": null,
+        "bbox": null,
+        "virtual_address": null
+      },
+      "summary": "Outlines the possible HTTP responses and their structures for the simulate payment endpoint.",
+      "children": []
+    },
+    {
+      "id": "Simulate_Test_Payment_Transfer.API.Simulate_Payment.Responses.200_OK",
+      "title": "200 OK Response",
+      "type": "section",
+      "location": {
+        "modality": "text",
+        "pages": null,
+        "lines": [
+          170,
+          176
+        ],
+        "start": null,
+        "end": null,
+        "bbox": null,
+        "virtual_address": null
+      },
+      "summary": "Details the successful response (HTTP 200 OK) for simulating a payment, confirming 'Payment successful'.",
+      "children": []
+    },
+    {
+      "id": "Simulate_Test_Payment_Transfer.API.Simulate_Payment.Responses.400_Bad_Request",
+      "title": "400 Bad Request Response",
+      "type": "section",
+      "location": {
+        "modality": "text",
+        "pages": null,
+        "lines": [
+          177,
+          182
+        ],
+        "start": null,
+        "end": null,
+        "bbox": null,
+        "virtual_address": null
+      },
+      "summary": "Details the bad request response (HTTP 400) for simulating a payment, typically due to missing required fields like 'amount'.",
+      "children": []
+    },
+    {
+      "id": "Simulate_Test_Payment_Transfer.API.Simulate_Payment.Sample_Request",
+      "title": "Sample Request (Simulate Payment)",
+      "type": "header",
+      "location": {
+        "modality": "text",
+        "pages": null,
+        "lines": [
+          186,
+          190
+        ],
+        "start": null,
+        "end": null,
+        "bbox": null,
+        "virtual_address": null
+      },
+      "summary": "Provides a sample JSON payload for simulating a payment into a virtual account with a specified amount.",
+      "children": []
+    },
+    {
+      "id": "Recurring_Payment_Charge_Authorization",
+      "title": "Recurring Payment (Charge Authorization on Card)",
+      "type": "header",
+      "location": {
+        "modality": "text",
+        "pages": null,
+        "lines": [
+          192,
+          194
+        ],
+        "start": null,
+        "end": null,
+        "bbox": null,
+        "virtual_address": null
+      },
+      "summary": "This section describes how to set up and manage recurring payments by charging an authorized card without collecting card information each time.",
+      "children": []
+    },
+    {
+      "id": "Card_Tokenization",
+      "title": "Card Tokenization",
+      "type": "header",
+      "location": {
+        "modality": "text",
+        "pages": null,
+        "lines": [
+          195,
+          201
+        ],
+        "start": null,
+        "end": null,
+        "bbox": null,
+        "virtual_address": null
+      },
+      "summary": "Explains how the system uses card tokenization for security and future transactions, requiring an 'is_recurring' flag in the initiate payload.",
+      "children": []
+    },
+    {
+      "id": "Card_Tokenization.Sample_Request",
+      "title": "Sample Request (Card Tokenization)",
+      "type": "header",
+      "location": {
+        "modality": "text",
+        "pages": null,
+        "lines": [
+          203,
+          211
+        ],
+        "start": null,
+        "end": null,
+        "bbox": null,
+        "virtual_address": null
+      },
+      "summary": "Provides a sample JSON payload for initiating a payment with card tokenization enabled by setting 'is_recurring' to true.",
+      "children": []
+    },
+    {
+      "id": "Card_Tokenization.Sample_Webhook_Response",
+      "title": "Sample Webhook Response (Tokenized Card)",
+      "type": "header",
+      "location": {
+        "modality": "text",
+        "pages": null,
+        "lines": [
+          213,
+          238
+        ],
+        "start": null,
+        "end": null,
+        "bbox": null,
+        "virtual_address": null
+      },
+      "summary": "Illustrates a sample webhook response confirming a successful charge and providing the `token_id` for a tokenized card.",
+      "children": []
+    },
+    {
+      "id": "Charge_Card",
+      "title": "Charge Card",
+      "type": "header",
+      "location": {
+        "modality": "text",
+        "pages": null,
+        "lines": [
+          240,
+          241
+        ],
+        "start": null,
+        "end": null,
+        "bbox": null,
+        "virtual_address": null
+      },
+      "summary": "This section details how to charge a card using a previously obtained `token_id` for subsequent transactions.",
+      "children": []
+    },
+    {
+      "id": "Charge_Card.API.Charge_Card",
+      "title": "Charge Card (with Token)",
+      "type": "function",
+      "location": {
+        "modality": "text",
+        "pages": null,
+        "lines": [
+          242,
+          244
+        ],
+        "start": null,
+        "end": null,
+        "bbox": null,
+        "virtual_address": null
+      },
+      "summary": "This endpoint debits a credit card using a token_id acquired from a previous tokenized transaction.",
+      "children": []
+    },
+    {
+      "id": "Charge_Card.API.Charge_Card.Parameters",
+      "title": "Parameters",
+      "type": "section",
+      "location": {
+        "modality": "text",
+        "pages": null,
+        "lines": [
+          245,
+          252
+        ],
+        "start": null,
+        "end": null,
+        "bbox": null,
+        "virtual_address": null
+      },
+      "summary": "Lists the body parameters required for charging a card with a token, including amount and token_id.",
+      "children": []
+    },
+    {
+      "id": "Charge_Card.API.Charge_Card.Parameters.Body",
+      "title": "Body Parameters",
+      "type": "section",
+      "location": {
+        "modality": "text",
+        "pages": null,
+        "lines": [
+          246,
+          252
+        ],
+        "start": null,
+        "end": null,
+        "bbox": null,
+        "virtual_address": null
+      },
+      "summary": "Describes body parameters like 'amount', 'token_id', and 'transaction_ref' for charging a card using its token.",
+      "children": []
+    },
+    {
+      "id": "Charge_Card.API.Charge_Card.Responses",
+      "title": "Responses",
+      "type": "section",
+      "location": {
+        "modality": "text",
+        "pages": null,
+        "lines": [
+          253,
+          279
+        ],
+        "start": null,
+        "end": null,
+        "bbox": null,
+        "virtual_address": null
+      },
+      "summary": "Outlines the possible HTTP responses and their structures for the charge card endpoint.",
+      "children": []
+    },
+    {
+      "id": "Charge_Card.API.Charge_Card.Responses.200_OK",
+      "title": "200 OK Response",
+      "type": "section",
+      "location": {
+        "modality": "text",
+        "pages": null,
+        "lines": [
+          254,
+          273
+        ],
+        "start": null,
+        "end": null,
+        "bbox": null,
+        "virtual_address": null
+      },
+      "summary": "Details the successful response (HTTP 200 OK) for charging a card with a token, including transaction details.",
+      "children": []
+    },
+    {
+      "id": "Charge_Card.API.Charge_Card.Responses.400_Bad_Request",
+      "title": "400 Bad Request Response",
+      "type": "section",
+      "location": {
+        "modality": "text",
+        "pages": null,
+        "lines": [
+          274,
+          279
+        ],
+        "start": null,
+        "end": null,
+        "bbox": null,
+        "virtual_address": null
+      },
+      "summary": "Details the bad request response (HTTP 400) for charging a card, often due to an invalid or missing 'amount'.",
+      "children": []
+    },
+    {
+      "id": "Charge_Card.API.Charge_Card.Sample_Request",
+      "title": "Sample Request (Charge Card)",
+      "type": "header",
+      "location": {
+        "modality": "text",
+        "pages": null,
+        "lines": [
+          281,
+          285
+        ],
+        "start": null,
+        "end": null,
+        "bbox": null,
+        "virtual_address": null
+      },
+      "summary": "Provides a sample JSON payload for charging a card using its token_id and a specified amount.",
+      "children": []
+    },
+    {
+      "id": "Cancel_Charge_Card",
+      "title": "Cancel Charge Card",
+      "type": "header",
+      "location": {
+        "modality": "text",
+        "pages": null,
+        "lines": [
+          287,
+          288
+        ],
+        "start": null,
+        "end": null,
+        "bbox": null,
+        "virtual_address": null
+      },
+      "summary": "This endpoint allows canceling a previously tokenized card, thereby revoking its authorization for future recurring charges.",
+      "children": []
+    },
+    {
+      "id": "Cancel_Charge_Card.API.Cancel_Recurring",
+      "title": "Cancel Recurring Token",
+      "type": "function",
+      "location": {
+        "modality": "text",
+        "pages": null,
+        "lines": [
+          289,
+          291
+        ],
+        "start": null,
+        "end": null,
+        "bbox": null,
+        "virtual_address": null
+      },
+      "summary": "This endpoint cancels active tokens to prevent further recurring charges on a card.",
+      "children": []
+    },
+    {
+      "id": "Cancel_Charge_Card.API.Cancel_Recurring.Parameters",
+      "title": "Parameters",
+      "type": "section",
+      "location": {
+        "modality": "text",
+        "pages": null,
+        "lines": [
+          292,
+          295
+        ],
+        "start": null,
+        "end": null,
+        "bbox": null,
+        "virtual_address": null
+      },
+      "summary": "Lists the body parameters required for canceling a recurring payment token.",
+      "children": []
+    },
+    {
+      "id": "Cancel_Charge_Card.API.Cancel_Recurring.Parameters.Body",
+      "title": "Body Parameters",
+      "type": "section",
+      "location": {
+        "modality": "text",
+        "pages": null,
+        "lines": [
+          293,
+          295
+        ],
+        "start": null,
+        "end": null,
+        "bbox": null,
+        "virtual_address": null
+      },
+      "summary": "Describes the 'auth_code' body parameter, which is the token ID sent via webhook at the first tokenized call.",
+      "children": []
+    },
+    {
+      "id": "Cancel_Charge_Card.API.Cancel_Recurring.Responses",
+      "title": "Responses",
+      "type": "section",
+      "location": {
+        "modality": "text",
+        "pages": null,
+        "lines": [
+          296,
+          316
+        ],
+        "start": null,
+        "end": null,
+        "bbox": null,
+        "virtual_address": null
+      },
+      "summary": "Outlines the possible HTTP responses and their structures for the cancel recurring token endpoint.",
+      "children": []
+    },
+    {
+      "id": "Cancel_Charge_Card.API.Cancel_Recurring.Responses.200_OK",
+      "title": "200 OK Response",
+      "type": "section",
+      "location": {
+        "modality": "text",
+        "pages": null,
+        "lines": [
+          297,
+          305
+        ],
+        "start": null,
+        "end": null,
+        "bbox": null,
+        "virtual_address": null
+      },
+      "summary": "Details the successful response (HTTP 200 OK) for canceling a recurring payment token, listing the revoked auth_code.",
+      "children": []
+    },
+    {
+      "id": "Cancel_Charge_Card.API.Cancel_Recurring.Responses.400_Bad_Request",
+      "title": "400 Bad Request Response",
+      "type": "section",
+      "location": {
+        "modality": "text",
+        "pages": null,
+        "lines": [
+          306,
+          311
+        ],
+        "start": null,
+        "end": null,
+        "bbox": null,
+        "virtual_address": null
+      },
+      "summary": "Details the bad request response (HTTP 400) for canceling a recurring payment, indicating that the cancellation failed.",
+      "children": []
+    },
+    {
+      "id": "Cancel_Charge_Card.API.Cancel_Recurring.Sample_Request",
+      "title": "Sample Request (Cancel Recurring)",
+      "type": "header",
+      "location": {
+        "modality": "text",
+        "pages": null,
+        "lines": [
+          317,
+          323
+        ],
+        "start": null,
+        "end": null,
+        "bbox": null,
+        "virtual_address": null
+      },
+      "summary": "Provides a sample JSON payload for canceling a recurring card token using an array of auth_codes.",
+      "children": []
+    },
+    {
+      "id": "Query_All_Transactions",
+      "title": "Query All Transactions",
+      "type": "header",
+      "location": {
+        "modality": "text",
+        "pages": null,
+        "lines": [
+          325,
+          327
+        ],
+        "start": null,
+        "end": null,
+        "bbox": null,
+        "virtual_address": null
+      },
+      "summary": "This endpoint allows querying all transactions and filtering them using multiple parameters like transaction reference, dates, and amount.",
+      "children": []
+    },
+    {
+      "id": "Query_All_Transactions.API.Query_Transactions",
+      "title": "Query Transactions",
+      "type": "function",
+      "location": {
+        "modality": "text",
+        "pages": null,
+        "lines": [
+          328,
+          329
+        ],
+        "start": null,
+        "end": null,
+        "bbox": null,
+        "virtual_address": null
+      },
+      "summary": "This endpoint retrieves a list of all transactions, allowing filtering by currency, start and end dates, page, perpage, and reference.",
+      "children": []
+    },
+    {
+      "id": "Query_All_Transactions.API.Query_Transactions.Parameters",
+      "title": "Parameters",
+      "type": "section",
+      "location": {
+        "modality": "text",
+        "pages": null,
+        "lines": [
+          330,
+          339
+        ],
+        "start": null,
+        "end": null,
+        "bbox": null,
+        "virtual_address": null
+      },
+      "summary": "Lists the query parameters required for filtering and retrieving transactions, including date ranges, currency, and pagination.",
+      "children": []
+    },
+    {
+      "id": "Query_All_Transactions.API.Query_Transactions.Parameters.Query",
+      "title": "Query Parameters",
+      "type": "section",
+      "location": {
+        "modality": "text",
+        "pages": null,
+        "lines": [
+          331,
+          339
+        ],
+        "start": null,
+        "end": null,
+        "bbox": null,
+        "virtual_address": null
+      },
+      "summary": "Describes query parameters such as currency, start_date, end_date, page, perpage, and reference for transaction queries.",
+      "children": []
+    },
+    {
+      "id": "Query_All_Transactions.API.Query_Transactions.Responses",
+      "title": "Responses",
+      "type": "section",
+      "location": {
+        "modality": "text",
+        "pages": null,
+        "lines": [
+          340,
+          412
+        ],
+        "start": null,
+        "end": null,
+        "bbox": null,
+        "virtual_address": null
+      },
+      "summary": "Outlines the possible HTTP responses and their structures for the query transactions endpoint.",
+      "children": []
+    },
+    {
+      "id": "Query_All_Transactions.API.Query_Transactions.Responses.200_OK",
+      "title": "200 OK Response",
+      "type": "section",
+      "location": {
+        "modality": "text",
+        "pages": null,
+        "lines": [
+          341,
+          407
+        ],
+        "start": null,
+        "end": null,
+        "bbox": null,
+        "virtual_address": null
+      },
+      "summary": "Details the successful response (HTTP 200 OK) for querying transactions, returning an array of detailed transaction objects.",
+      "children": []
+    },
+    {
+      "id": "Query_All_Transactions.API.Query_Transactions.Responses.400_Bad_Request",
+      "title": "400 Bad Request Response",
+      "type": "section",
+      "location": {
+        "modality": "text",
+        "pages": null,
+        "lines": [
+          408,
+          412
+        ],
+        "start": null,
+        "end": null,
+        "bbox": null,
+        "virtual_address": null
+      },
+      "summary": "Details the bad request response (HTTP 400) for querying transactions, often due to missing or invalid date parameters.",
+      "children": []
+    },
+    {
+      "id": "Go_Live",
+      "title": "Go Live",
+      "type": "header",
+      "location": {
+        "modality": "text",
+        "pages": null,
+        "lines": [
+          414,
+          420
+        ],
+        "start": null,
+        "end": null,
+        "bbox": null,
+        "virtual_address": null
+      },
+      "summary": "Provides instructions on how to transition from the sandbox environment to the live production environment, including URL changes and API key usage.",
+      "children": []
+    }
+  ],
+  "created_at": "2026-05-14T03:34:37.403502Z"
+}
